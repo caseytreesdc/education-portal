@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import CTButton from './CTButton'
+import CTButton from "./CTButton";
 
 import logo from "../assets/logo.svg";
 
@@ -9,13 +9,12 @@ const Header = () => {
     <div className="Header">
       <div className="Header__nav">
         <img src={logo} className="Header__nav-logo"></img>
-        <a className="Header__nav-main">Casey Trees Education</a>
-        <a className="Header__nav-items">Tea and Trees</a>
-        <a className="Header__nav-items">Your City, Your Trees</a>
-        <a className="Header__nav-items">Resources</a>
-      </div>
-      <div className="Header__buttons">
-          <CTButton text="DONATE"></CTButton>
+        <CTButton noBorder text="Casey Trees Education"></CTButton>
+        <CTButton noBorder text="Tea and Trees"></CTButton>
+        <CTButton noBorder text="Your City, Your Trees"></CTButton>
+        <CTButton noBorder text="Resources"></CTButton>
+        <CTButton text="DONATE"></CTButton>
+        <CTButton text="WATCH"></CTButton>
       </div>
     </div>
   );

@@ -2,9 +2,15 @@ import React from 'react';
 import './CTButton.css';
 
 const CTButton = (props) => {
+    let className = 'CTButton'
+    
+    if (props.noBorder) {
+        className += "-noBorder"
+    }
+
     return (
-        <div className="CTButton">
-            <p className="CTButton__text">{props.text}</p>
+        <div className={className}>
+            <p className={className + "__text"}>{props.text}</p>
         </div>
     )
 }
