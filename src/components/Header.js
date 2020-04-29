@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import CTButton from './CTButton'
 
 import logo from "../assets/logo.svg";
 
@@ -13,7 +14,9 @@ const Header = () => {
         <a className="Header__nav-items">Your City, Your Trees</a>
         <a className="Header__nav-items">Resources</a>
       </div>
-      <div className="Header__buttons"></div>
+      <div className="Header__buttons">
+          <CTButton text="DONATE"></CTButton>
+      </div>
     </div>
   );
 };

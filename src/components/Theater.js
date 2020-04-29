@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
-// import Youtube from "./Youtube";
 import "./Theater.css";
+import Form from './Form';
+
+// import Youtube from "./Youtube";
 
 const Theater = (props) => {
   // let currentVideo = "https://www.youtube.com/embed/2rgyeydcGB8";
@@ -11,7 +13,7 @@ const Theater = (props) => {
       className="Theater"
     >
       <Header></Header>
-      <div className="Theater__iframe-container"></div>
+      <Form></Form>
     </div>
   );
 };

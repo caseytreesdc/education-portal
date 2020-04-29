@@ -1,11 +1,20 @@
-.Header__nav {
+.Header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 90%;
+}
+
+.Header__nav {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
 }
 
 .Header__nav-main {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .Header__nav-logo {
