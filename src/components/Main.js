@@ -1,19 +1,16 @@
 import React from "react";
+import './Main.css'
 
-import Form from './Form'
 import Theater from "./Theater";
+import Gallery from "./Gallery";
 
-import Thumbnail from "./Thumbnail";
-
-import thumb1 from '../assets/ycyt-2_thumbnail.png'
-
+import theaterBackground from '../assets/theater-background-2.jpg';
 
 const Main = () => {
   return (
-    <div>
-      <Theater></Theater>
-      <Form></Form>
-      <Thumbnail imgSrc={thumb1}></Thumbnail>
+    <div className="Main">
+      <Theater backgroundImage={theaterBackground}></Theater>
+      <Gallery></Gallery>
     </div>
   );
 };
