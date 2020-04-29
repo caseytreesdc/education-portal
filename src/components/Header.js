@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="Header__nav">
-        <img src={logo} className="Header__nav-logo"></img>
+        <img alt="Casey Trees' logo" src={logo} className="Header__nav-logo"></img>
         <CTButton noBorder text="Casey Trees Education"></CTButton>
         <CTButton noBorder text="Tea and Trees"></CTButton>
         <CTButton noBorder text="Your City, Your Trees"></CTButton>

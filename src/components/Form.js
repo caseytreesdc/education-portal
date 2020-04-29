@@ -18,6 +18,7 @@ class Form extends React.Component {
     return (
       <div className="Form__iframe-Container">
         <iframe
+        title="Form or Video?"
           src={this.props.formSrc}
           height="400"
           width="600"
