@@ -4,13 +4,11 @@ import "./Form.css";
 class Form extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      formSource: this.props.formSrc,
 
-  }
-  componentDidMount() {
-    // let fa_iframe = document.getElementsByClassName("Form__iframe");
-    // console.log(fa_iframe);
-    // let submit = fa_iframe.contentDocument;
-    // console.log(submit);
+    }
+
   }
 
   render() {

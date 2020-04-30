@@ -36,16 +36,18 @@ class Main extends React.Component {
         this.setState({ formSrc: formSources.ycyt2 });
       }
     }
+
   }
 
   render() {
     return (
-      <div className="Main">
+      <div onClick={this.handleClick} className="Main">
         <Hero
+          // displayType={}
           formSrc={this.state.formSrc}
           backgroundImage={theaterBackground}
         ></Hero>
-        <div onClick={this.handleClick}>
+        <div>
           <Gallery></Gallery>
         </div>
       </div>
