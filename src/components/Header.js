@@ -12,7 +12,7 @@ const Header = () => {
         <CTButton noBorder text="Tea and Trees"></CTButton>
         <CTButton noBorder text="Your City, Your Trees"></CTButton>
         <CTButton noBorder text="Resources"></CTButton> */}
-        <CTButton text="DONATE"></CTButton>
+        <CTButton url="https://caseytrees.org/waystogive/evergreen-membership-donation-form/" text="DONATE"></CTButton>
         <CTButton text="WATCH"></CTButton>
     </div>
   );

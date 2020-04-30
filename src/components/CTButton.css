@@ -7,8 +7,8 @@
     cursor: pointer;
 }
 
-.CTButton-noBorder {
-    border: solid rgba(0,0,0,0) 0px;
+.CTButton__link {
+    text-decoration: none;
 }
 
 .CTButton__text {

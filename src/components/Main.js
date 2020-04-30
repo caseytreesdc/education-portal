@@ -40,13 +40,13 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div onClick={this.handleClick} className="Main">
+      <div className="Main">
         <Hero
           // displayType={}
           formSrc={this.state.formSrc}
           backgroundImage={theaterBackground}
         ></Hero>
-        <div>
+        <div onClick={this.handleClick}>
           <Gallery></Gallery>
         </div>
       </div>
