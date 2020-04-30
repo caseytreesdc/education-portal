@@ -14,7 +14,7 @@
 }
 
 .Thumbnail__image:hover {
-    opacity: 30%;
+    opacity: .3;
 }
 
 .play-icon {
