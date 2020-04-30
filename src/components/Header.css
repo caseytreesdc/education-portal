@@ -1,18 +1,10 @@
-.Header__nav {
+.Header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 60vh;
-}
-
-.Header__nav-main {
-    font-size: 20px;
+    justify-content: space-evenly;
+    height: 45vh;
 }
 
 .Header__nav-logo {
-    height: 8vh;
-}
-
-.Header__nav-items {
-    font-size: 20px;
+    height: 12vh;
 }

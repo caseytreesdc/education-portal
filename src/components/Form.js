@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Form.css";
 
 class Form extends React.Component {
@@ -6,17 +7,15 @@ class Form extends React.Component {
     super(props);
     this.state = {
       formSource: this.props.formSrc,
-
-    }
-
+    };
   }
 
   render() {
-    console.log(this.props)
+    console.log(this.props);
     return (
       <div className="Form__iframe-Container">
         <iframe
-        title="Form or Video?"
+          title="Form or Video?"
           src={this.props.formSrc}
           height="400"
           width="600"
@@ -24,7 +23,7 @@ class Form extends React.Component {
           scrolling="no"
           allowFullScreen
         ></iframe>
-        <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
+        {/* <script src="//tfaforms.com/js/iframe_resize_helper.js"></script> */}
       </div>
     );
   }

@@ -1,6 +1,24 @@
 .Thumbnail {
     height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
 }
+
 .Thumbnail__image {
     height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.Thumbnail__image:hover {
+    opacity: 30%;
+}
+
+.play-icon {
+    fill: white;
+    position: absolute;
+    z-index: 1;
 }

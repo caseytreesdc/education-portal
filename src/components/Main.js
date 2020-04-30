@@ -18,13 +18,12 @@ class Main extends React.Component {
   handleClick(e) {
     let formSources = {
       intro: "https://tfaforms.com/4821879",
-      plantItForward: "https://www.tfaforms.com/4821886",
+      plantItForward: "https://tfaforms.com/4821886",
       amendment: "https://tfaforms.com/4821403",
-      ycyt2: "https://www.tfaforms.com/4821884",
+      ycyt2: "https://tfaforms.com/4821884",
     };
-
+    
     e.preventDefault();
-    console.dir(e.target.alt);
     if (e.target.alt) {
       if (e.target.alt.includes("intro-to-ct")) {
         this.setState({ formSrc: formSources.intro });
