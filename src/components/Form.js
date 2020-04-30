@@ -11,7 +11,6 @@ class Form extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className="Form__iframe-Container">
         <iframe
@@ -20,10 +19,10 @@ class Form extends React.Component {
           height="400"
           width="600"
           frameborder="0"
-          scrolling="no"
+          // scrolling="no"
           allowFullScreen
         ></iframe>
-        {/* <script src="//tfaforms.com/js/iframe_resize_helper.js"></script> */}
+        <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
       </div>
     );
   }
