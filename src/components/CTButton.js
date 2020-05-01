@@ -8,6 +8,8 @@ const CTButton = (props) => {
     className += " orange"
   } else if (props.green) {
     className += " green"
+  } else if (props.blue) {
+    className += " blue"
   }
 
   return (

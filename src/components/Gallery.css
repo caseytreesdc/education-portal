@@ -1,7 +1,12 @@
 .Gallery {
-    padding: 3em;
-    display: flex;
-    justify-content: space-evenly;
-    border: #808080;
-    background: rgba(0,0,0,.03);
+  padding: 3vh;
+  background: rgba(0, 0, 0, 0.1);
+}
+.Gallery__heading {
+  padding-left: 5vw;
+}
+
+.Gallery__thumbnails {
+  display: flex;
+  justify-content: space-evenly;
 }

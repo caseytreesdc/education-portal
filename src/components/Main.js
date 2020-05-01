@@ -1,10 +1,10 @@
 import React from "react";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Main.css";
 
 import Header from "./Header";
 import Hero from "./Hero";
+import ControlPanel from "./ControlPanel"
 import Gallery from "./Gallery";
 
 import theaterBackground from "../assets/theater-background-2.jpg";
@@ -53,6 +53,7 @@ class Main extends React.Component {
           backgroundImage={theaterBackground}
         ></Hero>
         <div onClick={this.handleClick}>
+          <ControlPanel></ControlPanel>
           <Gallery></Gallery>
         </div>
       </div>

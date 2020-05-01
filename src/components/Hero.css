@@ -1,20 +1,19 @@
 .Hero {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* height: 70vh; */
-    box-shadow: inset 0px 10px 7px -2px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 10px 7px -2px rgba(0, 0, 0, 0.15);
 }
 
 .Hero__virtual-logo-container {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .Hero__virtual-logo {
-    height: 10vh;
-    margin: 2vw;
+  height: 10vh;
+  margin: 2vw;
 }

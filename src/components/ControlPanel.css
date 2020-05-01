@@ -1,0 +1,16 @@
+.ControlPanel {
+    background: rgb(224,239,244);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 2vh 0;
+}
+
+.ControlPanel__text-box {
+    width: 50vw;
+    margin: auto 0;
+    color: rgba(77, 123, 76, 1);
+    font-weight: bold;
+}

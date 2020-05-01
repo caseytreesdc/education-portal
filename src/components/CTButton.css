@@ -16,6 +16,10 @@
     background: rgba(196,129,72, 1);
 }
 
+.blue {
+    background: rgba(146, 207, 225, 1);
+}
+
 .CTButton__link {
     text-decoration: none;
 }

@@ -16,11 +16,6 @@ const Header = () => {
       </a>
       <div className="Header__buttons">
         <CTButton
-          orange
-          url="https://caseytrees.org/plant/"
-          text="WATCH"
-        ></CTButton>
-        <CTButton
           green
           url="https://caseytrees.org/resources/"
           text="DONATE"
