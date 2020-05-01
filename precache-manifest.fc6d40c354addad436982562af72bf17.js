@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c63b9bd0fe5d059f018d231ae0fe551",
+    "revision": "8b5b2fd5eaf576ab8b8005aff0bc6ac3",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "afd7423612552762bd09",
-    "url": "/ct-videos/static/css/main.be4cf011.chunk.css"
+    "revision": "a32d2894c05585f8f91e",
+    "url": "/ct-videos/static/css/main.322f543a.chunk.css"
   },
   {
-    "revision": "bf01afe4233a31ce3448",
-    "url": "/ct-videos/static/js/2.f2b4ec8b.chunk.js"
+    "revision": "5d78522521475cf879dc",
+    "url": "/ct-videos/static/js/2.feac0fc3.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/ct-videos/static/js/2.f2b4ec8b.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/ct-videos/static/js/2.feac0fc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "afd7423612552762bd09",
-    "url": "/ct-videos/static/js/main.69026566.chunk.js"
+    "revision": "a32d2894c05585f8f91e",
+    "url": "/ct-videos/static/js/main.eab54ec9.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d530c8bce5aa222e9b99f2e5bee694cd",
     "url": "/ct-videos/static/media/theater-background-2.d530c8bc.jpg"
+  },
+  {
+    "revision": "ac375bbdc2e2c7ec3b14c396ff2a1fa7",
+    "url": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png"
   },
   {
     "revision": "a317ccf5d72f6d8443a64a7071fe63ed",
