@@ -1,4 +1,5 @@
 .Hero {
+  height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -10,8 +11,6 @@
 }
 
 .Hero__virtual-logo {
-  /* what is this height?? */
-  height: 0%; 
   width: 12vw;
   margin: 2vw;
 }
