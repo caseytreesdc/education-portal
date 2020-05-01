@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 
+import Header from './Header'
 import Hero from "./Hero";
 import Gallery from "./Gallery";
 
@@ -44,6 +45,7 @@ class Main extends React.Component {
   render() {
     return (
       <div className="Main">
+        <Header></Header>
         <Hero
           formSrc={this.state.formSrc}
           backgroundImage={theaterBackground}
