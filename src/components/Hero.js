@@ -12,9 +12,7 @@ const Hero = (props) => {
       className="Hero"
     >
       <Form formSrc={props.formSrc}></Form>
-      <div className="Hero__virtual-logo-container">
-        <img className="Hero__virtual-logo" src={virtualCtLogo}></img>
-      </div>
+      <img className="Hero__virtual-logo" src={virtualCtLogo}></img>
     </div>
   );
 };
