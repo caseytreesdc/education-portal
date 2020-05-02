@@ -1,24 +1,24 @@
 .Thumbnail {
-    height: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    cursor: pointer;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
 }
 
 .Thumbnail__image {
-    height: 100%;
-    z-index: 2;
-    position: relative;
+  height: 100%;
+  z-index: 2;
+  position: relative;
 }
 
 .Thumbnail__image:hover {
-    opacity: .3;
+  opacity: 0.3;
 }
 
 .play-icon {
-    fill: white;
-    position: absolute;
-    z-index: 1;
+  fill: white;
+  position: absolute;
+  z-index: 1;
 }

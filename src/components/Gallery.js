@@ -34,7 +34,6 @@ const Gallery = () => {
             </div>
           </div>
         </Route>
-
         <Route path="/intro">
           <div className="Gallery">
             <h3 className="Gallery__heading">
