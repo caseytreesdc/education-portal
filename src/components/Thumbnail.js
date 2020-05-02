@@ -2,10 +2,6 @@ import React from "react";
 import "./Thumbnail.css";
 
 class Thumbnail extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="Thumbnail">
