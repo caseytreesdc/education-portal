@@ -17,7 +17,7 @@ const Gallery = () => {
       <Switch>
         <Route exact path="/">
           <div className="Gallery">
-            <h3 className="Gallery__heading">Content Gallery</h3>
+            <h3 className="Gallery__heading">All Series</h3>
             <div className="Gallery__thumbnails">
               <Link to="/intro">
                 <Thumbnail imgSrc={series}></Thumbnail>
