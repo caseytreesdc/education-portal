@@ -13,7 +13,7 @@ import ycyt2 from "../assets/thumbnails/ycyt-2_thumbnail.jpg";
 
 const Gallery = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <div className="Gallery">
