@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd5662c27165791ea218a4dbea47526b",
+    "revision": "ef474e3e6fe09f4949492586e0cf4fce",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "938652865111cfbb1453",
-    "url": "/ct-videos/static/css/main.322f543a.chunk.css"
+    "revision": "06f760422171306d536e",
+    "url": "/ct-videos/static/css/main.3510a1b5.chunk.css"
   },
   {
-    "revision": "981985f1301f76d98321",
-    "url": "/ct-videos/static/js/2.8865f0f1.chunk.js"
+    "revision": "ff39ef5e97ede696bb51",
+    "url": "/ct-videos/static/js/2.cb374cff.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ct-videos/static/js/2.8865f0f1.chunk.js.LICENSE.txt"
+    "url": "/ct-videos/static/js/2.cb374cff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "938652865111cfbb1453",
-    "url": "/ct-videos/static/js/main.63176eca.chunk.js"
+    "revision": "06f760422171306d536e",
+    "url": "/ct-videos/static/js/main.4c0304ad.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
     "url": "/ct-videos/static/js/runtime-main.8312ec3d.js"
+  },
+  {
+    "revision": "3b23e5ce415d9006b4d7bcc4653d5128",
+    "url": "/ct-videos/static/media/canopy-awards_thumbnail.3b23e5ce.jpg"
+  },
+  {
+    "revision": "2c0c0b9c72faf43f44d4d8bc719e3845",
+    "url": "/ct-videos/static/media/delores-bushong_thumbnail.2c0c0b9c.png"
   },
   {
     "revision": "25068982fc7391b476d91bf584dddabd",
@@ -32,16 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ct-videos/static/media/logo.8dd451f6.png"
   },
   {
+    "revision": "951bc4afb29360f8b5bd092c3a06af5d",
+    "url": "/ct-videos/static/media/nature-conservancy_thumbnail.951bc4af.jpg"
+  },
+  {
+    "revision": "f5736c824a8026397ee71dacaadd9b50",
+    "url": "/ct-videos/static/media/newest_thumbnail.f5736c82.jpg"
+  },
+  {
     "revision": "99337fae2e702d4651f0f67fea0085cd",
     "url": "/ct-videos/static/media/plant-it-forward_thumbnail.99337fae.png"
   },
   {
     "revision": "b3aa54fecd12e9d881040dd21c3a63be",
     "url": "/ct-videos/static/media/protection-amendment_thumbnail.b3aa54fe.png"
-  },
-  {
-    "revision": "37cd6f60d891f375522dab80cfe84d5e",
-    "url": "/ct-videos/static/media/series_thumbnail.37cd6f60.png"
   },
   {
     "revision": "d530c8bce5aa222e9b99f2e5bee694cd",
