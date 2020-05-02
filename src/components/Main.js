@@ -19,7 +19,7 @@ class Main extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
   componentDidMount() {
-    this.setState({ formSrc: "https://tfaforms.com/4821884" });
+    this.setState({ formSrc: "https://www.youtube.com/embed/bklRzVGupFI" });
   }
 
   handleClick(e) {
@@ -42,7 +42,7 @@ class Main extends React.Component {
         this.setState({ formSrc: formSources.ycyt2 });
       }
     }
-  }
+  };
 
   render() {
     return (

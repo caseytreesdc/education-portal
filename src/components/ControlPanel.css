@@ -5,7 +5,6 @@
     flex-direction: row;
     justify-content: space-around;
     height: fit-content;
-    padding: 2vh 0;
 }
 
 .ControlPanel__text-box {

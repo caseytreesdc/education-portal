@@ -18,7 +18,6 @@ class Thumbnail extends React.Component {
         >
           <polygon points="0,0 0,50 50,25" />
         </svg>
-        
         <img
           alt={this.props.imgSrc}
           className="Thumbnail__image"

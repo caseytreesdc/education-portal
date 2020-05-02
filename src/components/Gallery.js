@@ -1,8 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
-import Thumbnail from "./Thumbnail";
 
 import "./Gallery.css";
+import "./ControlPanel.css";
+
+import Thumbnail from "./Thumbnail";
+import CTButton from "./CTButton";
 
 import series from "../assets/thumbnails/series_thumbnail.png";
 
@@ -17,10 +20,21 @@ const Gallery = () => {
       <Switch>
         <Route exact path="/">
           <div className="Gallery">
-            <h3 className="Gallery__heading">All Series</h3>
+            <div className="ControlPanel">
+              <Link to="/newest">
+                <CTButton blue text="Watch Latest"></CTButton>
+              </Link>
+              <div className="ControlPanel__text-box">
+                <h3>Casey Trees' Web Series</h3>
+                <p className="ControlPanel__description">
+                  A descripton, telling us a little bit about the show, and then
+                  perhaps transitions to a description of the episode.
+                </p>
+              </div>
+            </div>
             <div className="Gallery__thumbnails">
-              <Link to="/intro">
-                <Thumbnail imgSrc={series}></Thumbnail>
+              <Link to="/newest">
+                <Thumbnail caption={intro} imgSrc={series}></Thumbnail>
               </Link>
               <Link to="/plantItForward">
                 <Thumbnail imgSrc={series}></Thumbnail>
@@ -34,14 +48,20 @@ const Gallery = () => {
             </div>
           </div>
         </Route>
-        <Route path="/intro">
+        <Route path="/newest">
           <div className="Gallery">
-            <h3 className="Gallery__heading">
-              <span>
-                <Link to="/">Back to series</Link>{" "}
-              </span>
-              Most popular
-            </h3>
+            <div className="ControlPanel">
+              <Link to="/">
+                <CTButton blue text="All Series"></CTButton>
+              </Link>
+              <div className="ControlPanel__text-box">
+                <h3>The Latest Episodes</h3>
+                <p className="ControlPanel__description">
+                  A descripton, telling us a little bit about the show, and then
+                  perhaps transitions to a description of the episode.
+                </p>
+              </div>
+            </div>
             <div className="Gallery__thumbnails">
               <Thumbnail imgSrc={intro}></Thumbnail>
               <Thumbnail imgSrc={plantItForward}></Thumbnail>
