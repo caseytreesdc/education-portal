@@ -4,7 +4,7 @@ import Thumbnail from "./Thumbnail";
 
 import "./Gallery.css";
 
-import goBack from "../assets/theater-background-2.jpg";
+import series from "../assets/thumbnails/series_thumbnail.png";
 
 import intro from "../assets/thumbnails/intro-to-ct_thumbnail.jpg";
 import plantItForward from "../assets/thumbnails/plant-it-forward_thumbnail.png";
@@ -20,16 +20,16 @@ const Gallery = () => {
             <h3 className="Gallery__heading">Content Gallery</h3>
             <div className="Gallery__thumbnails">
               <Link to="/intro">
-                <Thumbnail imgSrc={goBack}></Thumbnail>
+                <Thumbnail imgSrc={series}></Thumbnail>
               </Link>
               <Link to="/plantItForward">
-                <Thumbnail imgSrc={goBack}></Thumbnail>
+                <Thumbnail imgSrc={series}></Thumbnail>
               </Link>
               <Link to="/amendment">
-                <Thumbnail imgSrc={goBack}></Thumbnail>
+                <Thumbnail imgSrc={series}></Thumbnail>
               </Link>
               <Link to="/ycyt2">
-                <Thumbnail imgSrc={goBack}></Thumbnail>
+                <Thumbnail imgSrc={series}></Thumbnail>
               </Link>
             </div>
           </div>
