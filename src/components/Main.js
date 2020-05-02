@@ -17,6 +17,7 @@ import intro from "../assets/thumbnails/intro-to-ct_thumbnail.jpg";
 import plantItForward from "../assets/thumbnails/plant-it-forward_thumbnail.png";
 import amendment from "../assets/thumbnails/protection-amendment_thumbnail.png";
 import ycyt2 from "../assets/thumbnails/ycyt-2_thumbnail.jpg";
+import deloresBushong from "../assets/thumbnails/delores-bushong_thumbnail.png";
 
 import theaterBackground from "../assets/theater-background-2.jpg";
 
@@ -25,11 +26,13 @@ class Main extends React.Component {
     super(props);
     this.state = {
       none: "",
-      newest: "https://www.youtube.com/embed/bklRzVGupFI?start=2",
       intro: "https://tfaforms.com/4821879",
       plantItForward: "https://tfaforms.com/4821886",
       amendment: "https://tfaforms.com/4821403",
       ycyt2: "https://tfaforms.com/4821884",
+
+      newest: "https://www.youtube.com/embed/bklRzVGupFI",
+      deloresBushong: "https://www.youtube.com/embed/jI8rcDC30UM",
     };
   }
 
@@ -61,18 +64,16 @@ class Main extends React.Component {
                   <Link to="/newest">
                     <Thumbnail caption={intro} imgSrc={series}></Thumbnail>
                   </Link>
-                  <Link to="/plantItForward">
+                  <Link to="/ycyt">
                     <Thumbnail imgSrc={series}></Thumbnail>
                   </Link>
-                  <Link to="/amendment">
-                    <Thumbnail imgSrc={series}></Thumbnail>
-                  </Link>
-                  <Link to="/ycyt2">
+                  <Link to="/2019canopyawards">
                     <Thumbnail imgSrc={series}></Thumbnail>
                   </Link>
                 </div>
               </div>
             </Route>
+
             <Route path="/newest">
               <Hero
                 formSrc={this.state.newest}
@@ -113,12 +114,18 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <div className="Gallery">
-                <h3 className="Gallery__heading">
-                  <span>
-                    <Link to="/">Back to series</Link>{" "}
-                  </span>
-                  Your City, Your Trees
-                </h3>
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>An introduction to Casey Trees</h3>
+                    <p className="ControlPanel__description">
+                      A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
                 <div className="Gallery__thumbnails">
                   <Link to="/intro">
                     <Thumbnail imgSrc={intro}></Thumbnail>
@@ -141,12 +148,18 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <div className="Gallery">
-                <h3 className="Gallery__heading">
-                  <span>
-                    <Link to="/">Back to series</Link>{" "}
-                  </span>
-                  Your City, Your Trees
-                </h3>
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>Plant it Forward</h3>
+                    <p className="ControlPanel__description">
+                      A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
                 <div className="Gallery__thumbnails">
                   <Link to="/intro">
                     <Thumbnail imgSrc={intro}></Thumbnail>
@@ -169,12 +182,18 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <div className="Gallery">
-                <h3 className="Gallery__heading">
-                  <span>
-                    <Link to="/">Back to series</Link>
-                  </span>
-                  2019 Canopy Awards
-                </h3>
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>2019 Canopy Awards</h3>
+                    <p className="ControlPanel__description">
+                      A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
                 <div className="Gallery__thumbnails">
                   <Link to="/intro">
                     <Thumbnail imgSrc={intro}></Thumbnail>
@@ -197,12 +216,18 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <div className="Gallery">
-                <h3 className="Gallery__heading">
-                  <span>
-                    <Link to="/">Back to series</Link>
-                  </span>
-                  2019 Canopy Awards
-                </h3>
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>Your City, Your Trees</h3>
+                    <p className="ControlPanel__description">
+                      A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
                 <div className="Gallery__thumbnails">
                   <Link to="/intro">
                     <Thumbnail imgSrc={intro}></Thumbnail>
@@ -215,6 +240,57 @@ class Main extends React.Component {
                   </Link>
                   <Link to="/ycyt2">
                     <Thumbnail imgSrc={ycyt2}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+
+            <Route path="/2019canopyawards">
+              <Hero
+                formSrc={this.state.deloresBushong}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>Our 2019 Canopy Awards Honorees</h3>
+                    <p className="ControlPanel__description">
+                      A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/deloresBushong">
+                    <Thumbnail imgSrc={deloresBushong}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+            <Route path="/deloresBushong">
+              <Hero
+                formSrc={this.state.deloresBushong}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>Canopy Award for Volunteer Service</h3>
+                    <p className="ControlPanel__description">
+                      Delores Bushong. A descripton, telling us a little bit about the show, and
+                      then perhaps transitions to a description of the episode.
+                    </p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/deloresBushong">
+                    <Thumbnail imgSrc={deloresBushong}></Thumbnail>
                   </Link>
                 </div>
               </div>
