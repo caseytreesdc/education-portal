@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/home">
           <div className="Gallery">
             <h3 className="Gallery__heading">Content Gallery</h3>
             <div className="Gallery__thumbnails">
@@ -39,7 +39,7 @@ const Gallery = () => {
           <div className="Gallery">
             <h3 className="Gallery__heading">
               <span>
-                <Link to="/">Back to series</Link>{" "}
+                <Link to="/home">Back to series</Link>{" "}
               </span>
               Intro
             </h3>
@@ -55,7 +55,7 @@ const Gallery = () => {
           <div className="Gallery">
             <h3 className="Gallery__heading">
               <span>
-                <Link to="/">Back to series</Link>{" "}
+                <Link to="/home">Back to series</Link>{" "}
               </span>
               plantItForward
             </h3>
@@ -71,7 +71,7 @@ const Gallery = () => {
           <div className="Gallery">
             <h3 className="Gallery__heading">
               <span>
-                <Link to="/">Back to series</Link>{" "}
+                <Link to="/home">Back to series</Link>{" "}
               </span>
               amendment
             </h3>
@@ -87,7 +87,7 @@ const Gallery = () => {
           <div className="Gallery">
             <h3 className="Gallery__heading">
               <span>
-                <Link to="/">Back to series</Link>{" "}
+                <Link to="/home">Back to series</Link>{" "}
               </span>
               ycyt2
             </h3>
