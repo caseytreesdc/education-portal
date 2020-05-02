@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/ct-videos/static/css/main.322f543a.chunk.css",
-    "main.js": "/ct-videos/static/js/main.88486281.chunk.js",
-    "main.js.map": "/ct-videos/static/js/main.88486281.chunk.js.map",
+    "main.js": "/ct-videos/static/js/main.46e7c917.chunk.js",
+    "main.js.map": "/ct-videos/static/js/main.46e7c917.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
     "runtime-main.js.map": "/ct-videos/static/js/runtime-main.8312ec3d.js.map",
-    "static/js/2.feac0fc3.chunk.js": "/ct-videos/static/js/2.feac0fc3.chunk.js",
-    "static/js/2.feac0fc3.chunk.js.map": "/ct-videos/static/js/2.feac0fc3.chunk.js.map",
+    "static/js/2.8865f0f1.chunk.js": "/ct-videos/static/js/2.8865f0f1.chunk.js",
+    "static/js/2.8865f0f1.chunk.js.map": "/ct-videos/static/js/2.8865f0f1.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.0d1265b64816ca05d1bc35dc47c89a4a.js": "/ct-videos/precache-manifest.0d1265b64816ca05d1bc35dc47c89a4a.js",
+    "precache-manifest.204e5f501be34ebe847aa2f41363b5d4.js": "/ct-videos/precache-manifest.204e5f501be34ebe847aa2f41363b5d4.js",
     "service-worker.js": "/ct-videos/service-worker.js",
     "static/css/main.322f543a.chunk.css.map": "/ct-videos/static/css/main.322f543a.chunk.css.map",
-    "static/js/2.feac0fc3.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.feac0fc3.chunk.js.LICENSE.txt",
+    "static/js/2.8865f0f1.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.8865f0f1.chunk.js.LICENSE.txt",
     "static/media/intro-to-ct_thumbnail.jpg": "/ct-videos/static/media/intro-to-ct_thumbnail.25068982.jpg",
     "static/media/logo.png": "/ct-videos/static/media/logo.8dd451f6.png",
     "static/media/plant-it-forward_thumbnail.png": "/ct-videos/static/media/plant-it-forward_thumbnail.99337fae.png",
     "static/media/protection-amendment_thumbnail.png": "/ct-videos/static/media/protection-amendment_thumbnail.b3aa54fe.png",
+    "static/media/series_thumbnail.png": "/ct-videos/static/media/series_thumbnail.37cd6f60.png",
     "static/media/theater-background-2.jpg": "/ct-videos/static/media/theater-background-2.d530c8bc.jpg",
     "static/media/virtual-ct-logo.png": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png",
     "static/media/ycyt-2_thumbnail.jpg": "/ct-videos/static/media/ycyt-2_thumbnail.605e9a6b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
-    "static/js/2.feac0fc3.chunk.js",
+    "static/js/2.8865f0f1.chunk.js",
     "static/css/main.322f543a.chunk.css",
-    "static/js/main.88486281.chunk.js"
+    "static/js/main.46e7c917.chunk.js"
   ]
 }
