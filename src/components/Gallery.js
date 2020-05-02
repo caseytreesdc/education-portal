@@ -41,7 +41,7 @@ const Gallery = () => {
               <span>
                 <Link to="/">Back to series</Link>{" "}
               </span>
-              Intro
+              Most popular
             </h3>
             <div className="Gallery__thumbnails">
               <Thumbnail imgSrc={intro}></Thumbnail>
@@ -57,7 +57,7 @@ const Gallery = () => {
               <span>
                 <Link to="/">Back to series</Link>{" "}
               </span>
-              plantItForward
+              Your City, Your Trees
             </h3>
             <div className="Gallery__thumbnails">
               <Thumbnail imgSrc={intro}></Thumbnail>
@@ -73,23 +73,7 @@ const Gallery = () => {
               <span>
                 <Link to="/">Back to series</Link>{" "}
               </span>
-              amendment
-            </h3>
-            <div className="Gallery__thumbnails">
-              <Thumbnail imgSrc={intro}></Thumbnail>
-              <Thumbnail imgSrc={plantItForward}></Thumbnail>
-              <Thumbnail imgSrc={amendment}></Thumbnail>
-              <Thumbnail imgSrc={ycyt2}></Thumbnail>
-            </div>
-          </div>
-        </Route>
-        <Route path="/ycyt2">
-          <div className="Gallery">
-            <h3 className="Gallery__heading">
-              <span>
-                <Link to="/">Back to series</Link>{" "}
-              </span>
-              ycyt2
+              2019 Canopy Awards
             </h3>
             <div className="Gallery__thumbnails">
               <Thumbnail imgSrc={intro}></Thumbnail>
