@@ -1,11 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 
 import "./Gallery.css";
 import "./ControlPanel.css";
 
 import Thumbnail from "./Thumbnail";
-import CTButton from "./CTButton";
 
 const Gallery = (props) => {
   let keys = Object.keys(props.thumbs);
@@ -19,15 +18,12 @@ const Gallery = (props) => {
   });
   return (
     <div className="Gallery">
-      <div className="ControlPanel">
-        <Link to={props.panelButtonLink}>
-          <CTButton blue text={props.panelButtonText}></CTButton>
-        </Link>
-        <div className="ControlPanel__text-box">
-          <h3>{props.videoTitle}</h3>
-          <p className="ControlPanel__description">{props.videoDescription}</p>
-        </div>
-      </div>
+      <VideoInfo
+        buttonLink={props.panelButtonLink}
+        buttonText={props.panelButtonText}
+        title={props.videoTitle}
+        desctiption={props.videoDescription}
+      ></VideoInfo>
       <div className="Gallery__thumbnails">{thumbNails}</div>
     </div>
   );

@@ -1,4 +1,4 @@
-.ControlPanel {
+.VideoInfo {
     background: rgb(224,239,244);
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     height: fit-content;
 }
 
-.ControlPanel__text-box {
+.VideoInfo__text-box {
     width: 50vw;
     margin: auto 0;
     color: rgba(77, 123, 76, 1);
