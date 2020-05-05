@@ -4,6 +4,7 @@ import "./Main.css";
 
 import Header from "./Header";
 import Hero from "./Hero";
+import Gallery from "./Gallery"
 
 import "./Gallery.css";
 import "./ControlPanel.css";
@@ -13,6 +14,7 @@ import CTButton from "./CTButton";
 
 import newest from "../assets/thumbnails/newest_thumbnail.jpg";
 import canopyAwards from "../assets/thumbnails/canopy-awards_thumbnail.jpg";
+import partnerships from "../assets/thumbnails/partnerships_thumbnail.png";
 
 import intro from "../assets/thumbnails/intro-to-ct_thumbnail.jpg";
 import plantItForward from "../assets/thumbnails/plant-it-forward_thumbnail.png";
@@ -21,6 +23,10 @@ import ycyt2 from "../assets/thumbnails/ycyt-2_thumbnail.jpg";
 
 import deloresBushong from "../assets/thumbnails/delores-bushong_thumbnail.png";
 import natureConservancy from "../assets/thumbnails/nature-conservancy_thumbnail.jpg";
+
+import DCHandCD from "../assets/thumbnails/DCHandCD_thumbnail.png";
+import gallaudet from "../assets/thumbnails/gallaudet_thumbnail.png";
+import shakeShack from "../assets/thumbnails/shake-shack_thumbnail.png";
 
 import theaterBackground from "../assets/theater-background-2.jpg";
 
@@ -36,9 +42,14 @@ class Main extends React.Component {
       amendment: "https://tfaforms.com/4821403",
       ycyt2: "https://tfaforms.com/4821884",
 
-      canopyAwards:"https://www.youtube.com/embed/jI8rcDC30UM",
+      canopyAwards: "https://www.youtube.com/embed/jI8rcDC30UM",
       deloresBushong: "https://www.youtube.com/embed/jI8rcDC30UM",
-      natureConservancy: "https://www.youtube.com/embed/aCJZhLqc_6k"
+      natureConservancy: "https://www.youtube.com/embed/aCJZhLqc_6k",
+
+      anacostiaRiverkeeper: "https://www.youtube.com/embed/pIjRy-qkE7w",
+      gallaudetUniversity: "https://www.youtube.com/embed/6ZufRabr8Po",
+      shakeShack: "https://www.youtube.com/embed/Ms32WUa7hmw",
+      DCDHandCD: "https://www.youtube.com/embed/OYMppo7xlZ8",
     };
   }
 
@@ -59,10 +70,9 @@ class Main extends React.Component {
                     <CTButton blue text="Watch Latest"></CTButton>
                   </Link>
                   <div className="ControlPanel__text-box">
-                    <h3>Casey Trees' Web Series</h3>
+                    <h3>Casey Trees' Video Portal</h3>
                     <p className="ControlPanel__description">
-                      A descripton, telling us a little bit about the show, and
-                      then perhaps transitions to a description of the episode.
+                      Explore some of our featured videos!
                     </p>
                   </div>
                 </div>
@@ -72,6 +82,9 @@ class Main extends React.Component {
                   </Link>
                   <Link to="/2019canopyawards">
                     <Thumbnail imgSrc={canopyAwards}></Thumbnail>
+                  </Link>
+                  <Link to="/partnerships">
+                    <Thumbnail imgSrc={partnerships}></Thumbnail>
                   </Link>
                 </div>
               </div>
@@ -289,8 +302,9 @@ class Main extends React.Component {
                   <div className="ControlPanel__text-box">
                     <h3>Canopy Award for Sustainability</h3>
                     <p className="ControlPanel__description">
-                      The Nature Conservancy. A descripton, telling us a little bit about the show, and
-                      then perhaps transitions to a description of the episode.
+                      The Nature Conservancy. A descripton, telling us a little
+                      bit about the show, and then perhaps transitions to a
+                      description of the episode.
                     </p>
                   </div>
                 </div>
@@ -317,8 +331,9 @@ class Main extends React.Component {
                   <div className="ControlPanel__text-box">
                     <h3>Canopy Award for Volunteer Service</h3>
                     <p className="ControlPanel__description">
-                      Delores Bushong. A descripton, telling us a little bit about the show, and
-                      then perhaps transitions to a description of the episode.
+                      Delores Bushong. A descripton, telling us a little bit
+                      about the show, and then perhaps transitions to a
+                      description of the episode.
                     </p>
                   </div>
                 </div>
@@ -328,6 +343,142 @@ class Main extends React.Component {
                   </Link>
                   <Link to="/natureConservancy">
                     <Thumbnail imgSrc={natureConservancy}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+
+            <Route path="/partnerships">
+              <Hero
+                formSrc={this.state.anacostiaRiverkeeper}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>Casey Trees and ...</h3>
+                    <p className="ControlPanel__description">
+                      Our great partnerships over the years with DC Businesses,
+                      Universities, Government, and Public Schools
+                    </p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/DCHandCD">
+                    <Thumbnail imgSrc={DCHandCD}></Thumbnail>
+                  </Link>
+                  <Link to="/gallaudet">
+                    <Thumbnail imgSrc={gallaudet}></Thumbnail>
+                  </Link>
+                  <Link to="/shakeShack">
+                    <Thumbnail imgSrc={shakeShack}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+            <Route path="/DCHandCD">
+              <Hero
+                formSrc={this.state.DCDHandCD}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>
+                      Casey Trees and DC Department of Housing and Community
+                      Development
+                    </h3>
+                    <p className="ControlPanel__description">
+                      We are honored to present the Department of Housing and
+                      Community Development with the 2019 Canopy Awards for
+                      Partnership.
+                    </p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/DCHandCD">
+                    <Thumbnail imgSrc={DCHandCD}></Thumbnail>
+                  </Link>
+                  <Link to="/gallaudet">
+                    <Thumbnail imgSrc={gallaudet}></Thumbnail>
+                  </Link>
+                  <Link to="/shakeShack">
+                    <Thumbnail imgSrc={shakeShack}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+            <Route path="/gallaudet">
+              <Hero
+                formSrc={this.state.gallaudetUniversity}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>
+                      Casey Trees and Gallaudet University with Kendall
+                      Demonstration Elementary
+                    </h3>
+                    <p className="ControlPanel__description">
+                      The Kendall Demonstration Elementary School, located on
+                      campus at Gallaudet University is an inspiring hub for
+                      early education focused on deaf and hard of hearing
+                      children. Casey Trees super-volunteer Heidi Burns also
+                      works as the school's Coordinator of Teaching and
+                      Learning, and spearheaded an effort to plant a variety of
+                      new trees on KDES's grounds.
+                    </p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/DCHandCD">
+                    <Thumbnail imgSrc={DCHandCD}></Thumbnail>
+                  </Link>
+                  <Link to="/gallaudet">
+                    <Thumbnail imgSrc={gallaudet}></Thumbnail>
+                  </Link>
+                  <Link to="/shakeShack">
+                    <Thumbnail imgSrc={shakeShack}></Thumbnail>
+                  </Link>
+                </div>
+              </div>
+            </Route>
+            <Route path="/shakeShack">
+              <Hero
+                formSrc={this.state.shakeShack}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <div className="Gallery">
+                <div className="ControlPanel">
+                  <Link to="/">
+                    <CTButton blue text="All Series"></CTButton>
+                  </Link>
+                  <div className="ControlPanel__text-box">
+                    <h3>
+                      Casey Trees and Shake Shack
+                    </h3>
+                    <p className="ControlPanel__description">Shake Shack and Casey Trees come together in the DMV to re-tree the DC tree canopy!</p>
+                  </div>
+                </div>
+                <div className="Gallery__thumbnails">
+                  <Link to="/DCHandCD">
+                    <Thumbnail imgSrc={DCHandCD}></Thumbnail>
+                  </Link>
+                  <Link to="/gallaudet">
+                    <Thumbnail imgSrc={gallaudet}></Thumbnail>
+                  </Link>
+                  <Link to="/shakeShack">
+                    <Thumbnail imgSrc={shakeShack}></Thumbnail>
                   </Link>
                 </div>
               </div>
