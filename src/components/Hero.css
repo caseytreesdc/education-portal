@@ -1,5 +1,5 @@
 .Hero {
-  height: 65vh;
+  height: 68vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,5 +18,10 @@
 
 .Hero__virtual-logo {
   width: 12vw;
+  margin: 2vw;
+}
+
+.Hero__virtual-logo-splash {
+  width: 20vw;
   margin: 2vw;
 }

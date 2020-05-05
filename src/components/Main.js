@@ -65,6 +65,7 @@ class Main extends React.Component {
           <Switch>
             <Route exact path="/">
               <Hero
+                splash
                 formSrc={this.state.none}
                 backgroundImage={theaterBackground}
               ></Hero>

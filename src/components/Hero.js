@@ -6,6 +6,10 @@ import "./Hero.css";
 import virtualCtLogo from "../assets/virtual-ct-logo.png";
 
 const Hero = (props) => {
+  let logoClassName = "Hero__virtual-logo"
+  if (props.splash) {
+    logoClassName += "-splash"
+  }
   return (
     <div
       style={{ backgroundImage: `url(${props.backgroundImage})` }}
@@ -15,7 +19,7 @@ const Hero = (props) => {
       <div className="Hero__virtual-logo-container">
         <img
           alt="ct-virtual classes"
-          className="Hero__virtual-logo"
+          className={logoClassName}
           src={virtualCtLogo}
         ></img>
       </div>
