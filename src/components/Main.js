@@ -4,7 +4,7 @@ import "./Main.css";
 
 import Header from "./Header";
 import Hero from "./Hero";
-import Gallery from "./Gallery"
+import Gallery from "./Gallery";
 
 import "./Gallery.css";
 import "./ControlPanel.css";
@@ -12,23 +12,24 @@ import "./ControlPanel.css";
 import Thumbnail from "./Thumbnail";
 import CTButton from "./CTButton";
 
+//Hero Background
+import theaterBackground from "../assets/theater-background-2.jpg";
+//Home Page series thumbnails
 import newest from "../assets/thumbnails/newest_thumbnail.jpg";
 import canopyAwards from "../assets/thumbnails/canopy-awards_thumbnail.jpg";
 import partnerships from "../assets/thumbnails/partnerships_thumbnail.png";
-
+//Series 1 Thumbnails
 import intro from "../assets/thumbnails/intro-to-ct_thumbnail.jpg";
 import plantItForward from "../assets/thumbnails/plant-it-forward_thumbnail.png";
 import amendment from "../assets/thumbnails/protection-amendment_thumbnail.png";
 import ycyt2 from "../assets/thumbnails/ycyt-2_thumbnail.jpg";
-
+//Series 2 Thumbnails
 import deloresBushong from "../assets/thumbnails/delores-bushong_thumbnail.png";
 import natureConservancy from "../assets/thumbnails/nature-conservancy_thumbnail.jpg";
-
+//Series 3 Thumbnails
 import DCHandCD from "../assets/thumbnails/DCHandCD_thumbnail.png";
 import gallaudet from "../assets/thumbnails/gallaudet_thumbnail.png";
 import shakeShack from "../assets/thumbnails/shake-shack_thumbnail.png";
-
-import theaterBackground from "../assets/theater-background-2.jpg";
 
 class Main extends React.Component {
   constructor(props) {
@@ -64,30 +65,16 @@ class Main extends React.Component {
                 formSrc={this.state.none}
                 backgroundImage={theaterBackground}
               ></Hero>
-              <div className="Gallery">
-                <div className="ControlPanel">
-                  <Link to="/newest">
-                    <CTButton blue text="Watch Latest"></CTButton>
-                  </Link>
-                  <div className="ControlPanel__text-box">
-                    <h3>Casey Trees' Video Portal</h3>
-                    <p className="ControlPanel__description">
-                      Explore some of our featured videos!
-                    </p>
-                  </div>
-                </div>
-                <div className="Gallery__thumbnails">
-                  <Link to="/newest">
-                    <Thumbnail imgSrc={newest}></Thumbnail>
-                  </Link>
-                  <Link to="/2019canopyawards">
-                    <Thumbnail imgSrc={canopyAwards}></Thumbnail>
-                  </Link>
-                  <Link to="/partnerships">
-                    <Thumbnail imgSrc={partnerships}></Thumbnail>
-                  </Link>
-                </div>
-              </div>
+              <Gallery
+                path="/newest"
+                thumbs={{
+                  newest: newest,
+                  canopyAwards: canopyAwards,
+                  partnerships: partnerships,
+                }}
+                videoTitle="Casey Trees' Video Portal"
+                videoDescription="Explore some of our featured videos!"
+              ></Gallery>
             </Route>
 
             <Route path="/newest">
@@ -464,10 +451,11 @@ class Main extends React.Component {
                     <CTButton blue text="All Series"></CTButton>
                   </Link>
                   <div className="ControlPanel__text-box">
-                    <h3>
-                      Casey Trees and Shake Shack
-                    </h3>
-                    <p className="ControlPanel__description">Shake Shack and Casey Trees come together in the DMV to re-tree the DC tree canopy!</p>
+                    <h3>Casey Trees and Shake Shack</h3>
+                    <p className="ControlPanel__description">
+                      Shake Shack and Casey Trees come together in the DMV to
+                      re-tree the DC tree canopy!
+                    </p>
                   </div>
                 </div>
                 <div className="Gallery__thumbnails">
