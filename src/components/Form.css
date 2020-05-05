@@ -1,4 +1,29 @@
 .Form__iframe-Container {
-    margin: 2em;
-    max-width: 60vw;
+  height: 100%;
+  margin: 0 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.iframe__responsive {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .iframe__browser {
+    display: none;
+  }
+
+  .iframe__responsive {
+    display: flex;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .iframe__browser {
+    display: none;
+  }
+
+  .iframe__responsive {
+    display: flex;
+  }
 }

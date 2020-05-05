@@ -4,7 +4,6 @@
   justify-content: space-between;
   height: 36vh;
   background: rgba(0, 0, 0, 0);
-  padding-bottom: 5vh;
 }
 
 .Gallery__heading {
@@ -12,6 +11,7 @@
 }
 
 .Gallery__thumbnails {
+  padding: 5vh 0;
   display: flex;
   justify-content: space-evenly;
 }
