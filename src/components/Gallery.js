@@ -1,9 +1,10 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Gallery.css";
-import "./ControlPanel.css";
+import "./VideoInfo.css";
 
+import CTButton from "./CTButton";
 import Thumbnail from "./Thumbnail";
 
 const Gallery = (props) => {
@@ -18,12 +19,15 @@ const Gallery = (props) => {
   });
   return (
     <div className="Gallery">
-      <VideoInfo
-        buttonLink={props.panelButtonLink}
-        buttonText={props.panelButtonText}
-        title={props.videoTitle}
-        desctiption={props.videoDescription}
-      ></VideoInfo>
+      <div className="VideoInfo">
+        <Link to={props.panelButtonLink}>
+          <CTButton blue text={props.panelButtonText}></CTButton>
+        </Link>
+        <div className="VideoInfo__text-box">
+          <h3>{props.videoTitle}</h3>
+          <p className="VideoInfo__description">{props.videoDescription}</p>
+        </div>
+      </div>
       <div className="Gallery__thumbnails">{thumbNails}</div>
     </div>
   );
