@@ -11,48 +11,71 @@ import "./Gallery.css";
 //Hero Background
 import theaterBackground from "../assets/theater-background-2.jpg";
 //Home Page Series Thumbnails
-import newest from "../assets/thumbnails/newest_thumbnail.jpg";
-import canopyAwards from "../assets/thumbnails/canopy-awards_thumbnail.jpg";
-import partnerships from "../assets/thumbnails/partnerships_thumbnail.png";
-import ycyt from "../assets/thumbnails/ycyt_thumbnail.png";
+import yourCityYourTrees_series_thumbnail from "../assets/thumbnails/shake-shack_thumbnail.png";
+import branchOut_series_thumbnail from "../assets/thumbnails/dhcd_thumbnail.png";
+import teaAndTrees_series_thumbnail from "../assets/thumbnails/plant-it-forward_thumbnail.png";
 //YCYT Thumbnails
-import ycytE01 from "../assets/thumbnails/ycyt-e01_thumbnail.png";
-//also ycyt-2 thumbnail listed below in newest
-//Newest Thumbnails
-import intro from "../assets/thumbnails/intro-to-ct_thumbnail.jpg";
-import plantItForward from "../assets/thumbnails/plant-it-forward_thumbnail.png";
-import amendment from "../assets/thumbnails/protection-amendment_thumbnail.png";
-import ycytE02 from "../assets/thumbnails/ycyt-e02_thumbnail.jpg";
-//CanopyAwards Thumbnails
-import deloresBushong from "../assets/thumbnails/delores-bushong_thumbnail.png";
-import natureConservancy from "../assets/thumbnails/nature-conservancy_thumbnail.jpg";
-//Partnerships Thumbnails
-import dcdh from "../assets/thumbnails/dhcd_thumbnail.png";
-import gallaudet from "../assets/thumbnails/gallaudet_thumbnail.png";
-import shakeShack from "../assets/thumbnails/shake-shack_thumbnail.png";
+import ycyt_thumb_E01 from "../assets/thumbnails/ycyt-e01_thumbnail.png";
+import ycyt_thumb_E02 from "../assets/thumbnails/ycyt-e02_thumbnail.jpg";
+//Branch Out Thumbnails
+import branch_E01_thumbnail from "../assets/thumbnails/gallaudet_thumbnail.png";
+//Tea nad Trees Thumbnails
+import tea_E01_thumbnail from "../assets/thumbnails/protection-amendment_thumbnail.png";
+//More to Come Thumbnail
+import moreToCome_thumbnail from "../assets/thumbnails/partnerships_thumbnail.png";
 
 class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       none: "",
-      // videos and form links
-      newest: "https://tfaforms.com/4821884",
-      ycytE01: "https://tfaforms.com/4822991",
-      //
-      intro: "https://tfaforms.com/4821879",
-      plantItForward: "https://tfaforms.com/4821886",
-      amendment: "https://tfaforms.com/4821403",
-      ycytE02: "https://tfaforms.com/4821884",
-
-      canopyAwards: "https://www.youtube.com/embed/jI8rcDC30UM",
-      deloresBushong: "https://www.youtube.com/embed/jI8rcDC30UM",
-      natureConservancy: "https://www.youtube.com/embed/aCJZhLqc_6k",
-
-      anacostiaRiverkeeper: "https://www.youtube.com/embed/pIjRy-qkE7w",
-      gallaudet: "https://www.youtube.com/embed/6ZufRabr8Po",
-      shakeShack: "https://www.youtube.com/embed/Ms32WUa7hmw",
-      dcdh: "https://www.youtube.com/embed/OYMppo7xlZ8",
+      yourCity_series: {
+        path: "ycyt",
+        url: "https://tfaforms.com/4822991",
+        imageSrc: yourCityYourTrees_series_thumbnail,
+        caption: "Your City Your Trees",
+      },
+      branch_series: {
+        path: "branch-out",
+        url: "https://tfaforms.com/4823704",
+        imageSrc: branchOut_series_thumbnail,
+        caption: "Branch Out",
+      },
+      tea_series: {
+        path: "tea-and-trees",
+        url: "https://tfaforms.com/4823707",
+        imageSrc: teaAndTrees_series_thumbnail,
+        caption: "Tea and Trees",
+      },
+      ycytE01: {
+        path: "ycytE01",
+        url: "https://tfaforms.com/4822991",
+        imageSrc: ycyt_thumb_E01,
+        caption: "01: Series Introduction",
+      },
+      ycytE02: {
+        path: "ycytE02",
+        url: "https://tfaforms.com/4821884",
+        imageSrc: ycyt_thumb_E02,
+        caption: "02: Steps to Tree ID",
+      },
+      branchE01: {
+        path: "branchE01",
+        url: "https://tfaforms.com/4823704",
+        imageSrc: branch_E01_thumbnail,
+        caption: "01: Anacostia Riverkeeper",
+      },
+      teaAndTreesE01: {
+        path: "teaE01",
+        url: "https://tfaforms.com/4823707",
+        imageSrc: tea_E01_thumbnail,
+        caption: "01: Dr. Jess Sanders",
+      },
+      moreToCome: {
+        path: "moreToCome",
+        imageSrc: moreToCome_thumbnail,
+        caption: "More coming soon..."
+      },
     };
   }
 
@@ -70,269 +93,122 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  ycyt: ycyt,
-                  canopyAwards: canopyAwards,
-                  partnerships: partnerships,
-                }}
+                thumbs={[
+                  this.state.yourCity_series,
+                  this.state.branch_series,
+                  this.state.tea_series,
+                ]}
                 panelButtonLink="/ycytE02"
                 panelButtonText="Watch Latest"
-                videoTitle="Casey Trees' Video Portal"
-                videoDescription="Explore some of our featured videos!"
+                panelTitle="Casey Trees' Video Portal"
+                panelDescription="Explore some of our featured videos!"
               ></Gallery>
             </Route>
 
-            <Route path="/ycyt">
+            <Route path={"/" + this.state.yourCity_series.path}>
               <Hero
-                formSrc={this.state.ycytE01}
+                formSrc={this.state.ycytE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  ycytE01: ycytE01,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.ycytE01, this.state.ycytE02, this.state.moreToCome]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="Your City, Your Trees"
-                videoDescription="Welcome to our newest series!"
+                panelTitle="Your City, Your Trees"
+                panelDescription="Welcome to our newest series!"
               ></Gallery>
             </Route>
 
-            <Route path="/ycytE01">
+            <Route path={"/" + this.state.ycytE01.path}>
               <Hero
-                formSrc={this.state.ycytE01}
+                formSrc={this.state.ycytE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  ycytE01: ycytE01,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.ycytE01, this.state.ycytE02]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="Your City, Your Trees: Series Introduction"
-                videoDescription="From our Education Team, welcome to our newest series, Your City, Your Trees "
+                panelTitle="Your City, Your Trees: Series Introduction"
+                panelDescription="From our Education Team, welcome to our newest series, Your City, Your Trees "
               ></Gallery>
             </Route>
 
-            <Route path="/ycytE02">
+            <Route path={"/" + this.state.ycytE02.path}>
               <Hero
-                formSrc={this.state.ycytE02}
+                formSrc={this.state.ycytE02.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  ycytE01: ycytE01,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.ycytE01, this.state.ycytE02]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="Your City, Your Trees: Steps to Tree ID"
-                videoDescription="Episode 2 with Gabrielle Rovegno, Community Education Coordinator "
+                panelTitle="Your City, Your Trees: Steps to Tree ID"
+                panelDescription="Episode 2 with Gabrielle Rovegno, Community Education Coordinator "
               ></Gallery>
             </Route>
 
-            <Route path="/newest">
+            <Route path={"/" + this.state.branch_series.path}>
               <Hero
-                formSrc={this.state.newest}
+                formSrc={this.state.branchE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  intro: intro,
-                  plantItForward: plantItForward,
-                  amendment: amendment,
-                }}
+                thumbs={[this.state.branchE01]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="The Latest Episodes"
-                videoDescription="A descripton, telling us a little bit about the show, and then perhaps transitions to a description of the episode."
+                panelTitle="Branch Out"
+                panelDescription="Documenting Casey Trees' Historic Partnerships"
               ></Gallery>
             </Route>
 
-            <Route path="/intro">
+            <Route path={"/" + this.state.branchE01.path}>
               <Hero
-                formSrc={this.state.intro}
+                formSrc={this.state.branchE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  intro: intro,
-                  plantItForward: plantItForward,
-                  amendment: amendment,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.branchE01]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="An introduction to Casey Trees"
-                videoDescription="A descripton, telling us a little bit about the show, and then perhaps transitions to a description of the episode."
+                panelTitle="Branch Out: Trey Sherard of Anacostia Riverkeeper"
+                panelDescription="Description description description etc. "
               ></Gallery>
             </Route>
 
-            <Route path="/plantItForward">
+            <Route path={"/" + this.state.tea_series.path}>
               <Hero
-                formSrc={this.state.plantItForward}
+                formSrc={this.state.teaAndTreesE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  intro: intro,
-                  plantItForward: plantItForward,
-                  amendment: amendment,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.teaAndTreesE01]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="Plant it Forward"
-                videoDescription="Ensuring the future a strong canopy."
+                panelTitle="Tea and Trees"
+                panelDescription="Our newest series: our staff sounds off!"
               ></Gallery>
             </Route>
 
-            <Route path="/amendment">
+            <Route path={"/" + this.state.teaAndTreesE01.path}>
               <Hero
-                formSrc={this.state.amendment}
+                formSrc={this.state.teaAndTreesE01.url}
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={{
-                  intro: intro,
-                  plantItForward: plantItForward,
-                  amendment: amendment,
-                  ycytE02: ycytE02,
-                }}
+                thumbs={[this.state.teaAndTreesE01]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                videoTitle="Tree Protection Act"
-                videoDescription="A descripton, telling us a little bit about the show, and then perhaps transitions to a description of the episode."
+                panelTitle="Tea and Trees: The Inaugural Episode"
+                panelDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
               ></Gallery>
             </Route>
-
-            <Route path="/canopyAwards">
-              <Hero
-                formSrc={this.state.canopyAwards}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  natureConservancy: natureConservancy,
-                  deloresBushong: deloresBushong,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="The Canopy Awards!"
-                videoDescription="Our yearly celebration of the people who keep DC's Urban Forest flourishing."
-              ></Gallery>
-            </Route>
-
-            <Route path="/natureConservancy">
-              <Hero
-                formSrc={this.state.natureConservancy}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  natureConservancy: natureConservancy,
-                  deloresBushong: deloresBushong,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Canopy Award for Sustainability"
-                videoDescription="The Nature Conservancy. A descripton, telling us a littlebit about the show, and then perhaps transitions to a description of the episode."
-              ></Gallery>
-            </Route>
-
-            <Route path="/deloresBushong">
-              <Hero
-                formSrc={this.state.deloresBushong}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  natureConservancy: natureConservancy,
-                  deloresBushong: deloresBushong,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Canopy Award for Volunteer Service"
-                videoDescription="Delores Bushong A descripton, telling us a littlebit about the show, and then perhaps transitions to a description of the episode."
-              ></Gallery>
-            </Route>
-
-            <Route path="/partnerships">
-              <Hero
-                formSrc={this.state.anacostiaRiverkeeper}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  dcdh: dcdh,
-                  gallaudet: gallaudet,
-                  shakeShack: shakeShack,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Casey Trees and ..."
-                videoDescription="Our great partnerships over the years with DC Businesses, Universities, Government, and Public Schools"
-              ></Gallery>
-            </Route>
-
-            <Route path="/dcdh">
-              <Hero
-                formSrc={this.state.dcdh}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  dcdh: dcdh,
-                  gallaudet: gallaudet,
-                  shakeShack: shakeShack,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Casey Trees and DC Department of Housing and Community Development"
-                videoDescription=" We are honored to present the Department of Housing and Community Development with the 2019 Canopy Awards for Partnership."
-              ></Gallery>
-            </Route>
-
-            <Route path="/gallaudet">
-              <Hero
-                formSrc={this.state.gallaudet}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  dcdh: dcdh,
-                  gallaudet: gallaudet,
-                  shakeShack: shakeShack,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Casey Trees and Gallaudet University with Kendall Demonstration Elementary"
-                videoDescription="The Kendall Demonstration Elementary School, located on campus at Gallaudet 
-                  University is an inspiring hub for early education focused on deaf and hard of hearing children.
-                  Casey Trees super-volunteer Heidi Burns also works as the school's Coordinator of Teaching andLearning, 
-                  and spearheaded an effort to plant a variety of new trees on KDES's grounds."
-              ></Gallery>
-            </Route>
-
-            <Route path="/shakeShack">
-              <Hero
-                formSrc={this.state.shakeShack}
-                backgroundImage={theaterBackground}
-              ></Hero>
-              <Gallery
-                thumbs={{
-                  dcdh: dcdh,
-                  gallaudet: gallaudet,
-                  shakeShack: shakeShack,
-                }}
-                panelButtonLink="/"
-                panelButtonText="All Series"
-                videoTitle="Casey Trees and Shake Shack"
-                videoDescription="Shake Shack and Casey Trees come together in the DMV to re-tree the DC tree canopy!"
-              ></Gallery>
-            </Route>
+            <Route
+              path={"/" + this.state.moreToCome}
+              component={() => {
+                window.location.href = "https://www.google.com";
+                return null;
+              }}
+            ></Route>
           </Switch>
         </Router>
       </div>
