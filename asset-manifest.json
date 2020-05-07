@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ct-videos/static/css/main.886d562d.chunk.css",
+    "main.css": "/ct-videos/static/css/main.ee01f8fc.chunk.css",
     "main.js": "/ct-videos/static/js/main.a74cc6a8.chunk.js",
     "main.js.map": "/ct-videos/static/js/main.a74cc6a8.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
@@ -8,9 +8,9 @@
     "static/js/2.859aac8e.chunk.js": "/ct-videos/static/js/2.859aac8e.chunk.js",
     "static/js/2.859aac8e.chunk.js.map": "/ct-videos/static/js/2.859aac8e.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.611ed905466e8095effc54e523a4caa7.js": "/ct-videos/precache-manifest.611ed905466e8095effc54e523a4caa7.js",
+    "precache-manifest.763ec0e4ab77791bf84c572c4cae3b95.js": "/ct-videos/precache-manifest.763ec0e4ab77791bf84c572c4cae3b95.js",
     "service-worker.js": "/ct-videos/service-worker.js",
-    "static/css/main.886d562d.chunk.css.map": "/ct-videos/static/css/main.886d562d.chunk.css.map",
+    "static/css/main.ee01f8fc.chunk.css.map": "/ct-videos/static/css/main.ee01f8fc.chunk.css.map",
     "static/js/2.859aac8e.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.859aac8e.chunk.js.LICENSE.txt",
     "static/media/canopy-awards_thumbnail.jpg": "/ct-videos/static/media/canopy-awards_thumbnail.3b23e5ce.jpg",
     "static/media/delores-bushong_thumbnail.png": "/ct-videos/static/media/delores-bushong_thumbnail.2c0c0b9c.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
     "static/js/2.859aac8e.chunk.js",
-    "static/css/main.886d562d.chunk.css",
+    "static/css/main.ee01f8fc.chunk.css",
     "static/js/main.a74cc6a8.chunk.js"
   ]
 }
