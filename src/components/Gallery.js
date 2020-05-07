@@ -21,13 +21,13 @@ const Gallery = (props) => {
     <div className="Gallery">
       <a href="#thumbnails">
         <div className="VideoInfo">
-          <Link to={props.panelButtonLink}>
-            <CTButton blue text={props.panelButtonText}></CTButton>
-          </Link>
           <div className="VideoInfo__text-box">
             <h3>{props.videoTitle}</h3>
             <p className="VideoInfo__description">{props.videoDescription}</p>
           </div>
+          <Link to={props.panelButtonLink}>
+            <CTButton blue text={props.panelButtonText}></CTButton>
+          </Link>
         </div>
       </a>
       <div id="thumbnails" className="Gallery__thumbnails">{thumbNails}</div>
