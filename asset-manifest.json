@@ -1,25 +1,20 @@
 {
   "files": {
     "main.css": "/ct-videos/static/css/main.ee01f8fc.chunk.css",
-    "main.js": "/ct-videos/static/js/main.a74cc6a8.chunk.js",
-    "main.js.map": "/ct-videos/static/js/main.a74cc6a8.chunk.js.map",
+    "main.js": "/ct-videos/static/js/main.858b0fdc.chunk.js",
+    "main.js.map": "/ct-videos/static/js/main.858b0fdc.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
     "runtime-main.js.map": "/ct-videos/static/js/runtime-main.8312ec3d.js.map",
-    "static/js/2.859aac8e.chunk.js": "/ct-videos/static/js/2.859aac8e.chunk.js",
-    "static/js/2.859aac8e.chunk.js.map": "/ct-videos/static/js/2.859aac8e.chunk.js.map",
+    "static/js/2.117ba167.chunk.js": "/ct-videos/static/js/2.117ba167.chunk.js",
+    "static/js/2.117ba167.chunk.js.map": "/ct-videos/static/js/2.117ba167.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.763ec0e4ab77791bf84c572c4cae3b95.js": "/ct-videos/precache-manifest.763ec0e4ab77791bf84c572c4cae3b95.js",
+    "precache-manifest.61df36afa190a9a1161e4ef965c91cc1.js": "/ct-videos/precache-manifest.61df36afa190a9a1161e4ef965c91cc1.js",
     "service-worker.js": "/ct-videos/service-worker.js",
     "static/css/main.ee01f8fc.chunk.css.map": "/ct-videos/static/css/main.ee01f8fc.chunk.css.map",
-    "static/js/2.859aac8e.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.859aac8e.chunk.js.LICENSE.txt",
-    "static/media/canopy-awards_thumbnail.jpg": "/ct-videos/static/media/canopy-awards_thumbnail.3b23e5ce.jpg",
-    "static/media/delores-bushong_thumbnail.png": "/ct-videos/static/media/delores-bushong_thumbnail.2c0c0b9c.png",
+    "static/js/2.117ba167.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.117ba167.chunk.js.LICENSE.txt",
     "static/media/dhcd_thumbnail.png": "/ct-videos/static/media/dhcd_thumbnail.90af645a.png",
     "static/media/gallaudet_thumbnail.png": "/ct-videos/static/media/gallaudet_thumbnail.1f9b19ec.png",
-    "static/media/intro-to-ct_thumbnail.jpg": "/ct-videos/static/media/intro-to-ct_thumbnail.25068982.jpg",
     "static/media/logo.png": "/ct-videos/static/media/logo.8dd451f6.png",
-    "static/media/nature-conservancy_thumbnail.jpg": "/ct-videos/static/media/nature-conservancy_thumbnail.951bc4af.jpg",
-    "static/media/newest_thumbnail.jpg": "/ct-videos/static/media/newest_thumbnail.f5736c82.jpg",
     "static/media/partnerships_thumbnail.png": "/ct-videos/static/media/partnerships_thumbnail.c38140bd.png",
     "static/media/plant-it-forward_thumbnail.png": "/ct-videos/static/media/plant-it-forward_thumbnail.99337fae.png",
     "static/media/protection-amendment_thumbnail.png": "/ct-videos/static/media/protection-amendment_thumbnail.b3aa54fe.png",
@@ -27,13 +22,12 @@
     "static/media/theater-background-2.jpg": "/ct-videos/static/media/theater-background-2.d530c8bc.jpg",
     "static/media/virtual-ct-logo.png": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png",
     "static/media/ycyt-e01_thumbnail.png": "/ct-videos/static/media/ycyt-e01_thumbnail.a50cf5c6.png",
-    "static/media/ycyt-e02_thumbnail.jpg": "/ct-videos/static/media/ycyt-e02_thumbnail.605e9a6b.jpg",
-    "static/media/ycyt_thumbnail.png": "/ct-videos/static/media/ycyt_thumbnail.f2ea6e4f.png"
+    "static/media/ycyt-e02_thumbnail.jpg": "/ct-videos/static/media/ycyt-e02_thumbnail.605e9a6b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
-    "static/js/2.859aac8e.chunk.js",
+    "static/js/2.117ba167.chunk.js",
     "static/css/main.ee01f8fc.chunk.css",
-    "static/js/main.a74cc6a8.chunk.js"
+    "static/js/main.858b0fdc.chunk.js"
   ]
 }
