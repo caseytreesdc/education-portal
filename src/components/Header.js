@@ -15,6 +15,12 @@ const Header = () => {
         <img alt="Casey Trees' logo" src={logo} className="Header__logo"></img>
       </a>
       <div className="Header__buttons">
+      <CTButton
+          samePage
+          blue
+          url="https://caseytreesdc.github.io/ct-videos/#thumbnails"
+          text="WATCH"
+        ></CTButton>
         <CTButton
           orange
           url="https://caseytrees.org/"

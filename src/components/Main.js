@@ -22,7 +22,6 @@ import branch_E01_thumbnail from "../assets/thumbnails/gallaudet_thumbnail.png";
 //Tea nad Trees Thumbnails
 import tea_E01_thumbnail from "../assets/thumbnails/protection-amendment_thumbnail.png";
 //More to Come Thumbnail
-import moreToCome_thumbnail from "../assets/thumbnails/partnerships_thumbnail.png";
 
 class Main extends React.Component {
   constructor(props) {
@@ -71,11 +70,6 @@ class Main extends React.Component {
         imageSrc: tea_E01_thumbnail,
         caption: "01: Dr. Jess Sanders",
       },
-      moreToCome: {
-        path: "moreToCome",
-        imageSrc: moreToCome_thumbnail,
-        caption: "More coming soon..."
-      },
     };
   }
 
@@ -111,7 +105,7 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.ycytE01, this.state.ycytE02, this.state.moreToCome]}
+                thumbs={[this.state.ycytE01, this.state.ycytE02]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees"
@@ -202,13 +196,6 @@ class Main extends React.Component {
                 panelDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
               ></Gallery>
             </Route>
-            <Route
-              path={"/" + this.state.moreToCome}
-              component={() => {
-                window.location.href = "https://www.google.com";
-                return null;
-              }}
-            ></Route>
           </Switch>
         </Router>
       </div>
