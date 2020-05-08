@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ct-videos/static/css/main.a8112bee.chunk.css",
-    "main.js": "/ct-videos/static/js/main.692e4f89.chunk.js",
-    "main.js.map": "/ct-videos/static/js/main.692e4f89.chunk.js.map",
+    "main.css": "/ct-videos/static/css/main.5beb196e.chunk.css",
+    "main.js": "/ct-videos/static/js/main.f77d5c54.chunk.js",
+    "main.js.map": "/ct-videos/static/js/main.f77d5c54.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
     "runtime-main.js.map": "/ct-videos/static/js/runtime-main.8312ec3d.js.map",
-    "static/js/2.8caff7a9.chunk.js": "/ct-videos/static/js/2.8caff7a9.chunk.js",
-    "static/js/2.8caff7a9.chunk.js.map": "/ct-videos/static/js/2.8caff7a9.chunk.js.map",
+    "static/js/2.7ed06bd4.chunk.js": "/ct-videos/static/js/2.7ed06bd4.chunk.js",
+    "static/js/2.7ed06bd4.chunk.js.map": "/ct-videos/static/js/2.7ed06bd4.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.beec75d4964ad70fc018422c80ec1cd7.js": "/ct-videos/precache-manifest.beec75d4964ad70fc018422c80ec1cd7.js",
+    "precache-manifest.fe44baf797d6c75a9ac8b413a83ff89f.js": "/ct-videos/precache-manifest.fe44baf797d6c75a9ac8b413a83ff89f.js",
     "service-worker.js": "/ct-videos/service-worker.js",
-    "static/css/main.a8112bee.chunk.css.map": "/ct-videos/static/css/main.a8112bee.chunk.css.map",
-    "static/js/2.8caff7a9.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.8caff7a9.chunk.js.LICENSE.txt",
+    "static/css/main.5beb196e.chunk.css.map": "/ct-videos/static/css/main.5beb196e.chunk.css.map",
+    "static/js/2.7ed06bd4.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.7ed06bd4.chunk.js.LICENSE.txt",
     "static/media/dhcd_thumbnail.png": "/ct-videos/static/media/dhcd_thumbnail.90af645a.png",
+    "static/media/footer-logo.png": "/ct-videos/static/media/footer-logo.285e02f3.png",
     "static/media/gallaudet_thumbnail.png": "/ct-videos/static/media/gallaudet_thumbnail.1f9b19ec.png",
     "static/media/logo.png": "/ct-videos/static/media/logo.8dd451f6.png",
     "static/media/plant-it-forward_thumbnail.png": "/ct-videos/static/media/plant-it-forward_thumbnail.99337fae.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
-    "static/js/2.8caff7a9.chunk.js",
-    "static/css/main.a8112bee.chunk.css",
-    "static/js/main.692e4f89.chunk.js"
+    "static/js/2.7ed06bd4.chunk.js",
+    "static/css/main.5beb196e.chunk.css",
+    "static/js/main.f77d5c54.chunk.js"
   ]
 }
