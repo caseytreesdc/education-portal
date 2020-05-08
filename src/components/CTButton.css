@@ -10,13 +10,24 @@
 .green {
     background: rgba(77, 123, 76, 1);
 }
+.green:hover {
+    background: rgb(39, 128, 39);
+}
 
 .orange {
     background: rgba(196,129,72, 1);
 }
 
+.orange:hover {
+    background: rgb(203, 121, 50);
+}
+
 .blue {
     background: rgba(146, 207, 225, 1);
+}
+
+.blue:hover {
+    background: rgb(65, 182, 218);
 }
 
 .CTButton__link {

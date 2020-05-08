@@ -22,18 +22,31 @@ import branch_E01_thumbnail from "../assets/thumbnails/gallaudet_thumbnail.png";
 //Tea nad Trees Thumbnails
 import tea_E01_thumbnail from "../assets/thumbnails/protection-amendment_thumbnail.png";
 //More to Come Thumbnail
-
+class Pages {
+  constructor(path, url, imageSrc, caption) {
+    this.path = path;
+    this.url = url;
+    this.imageSrc = imageSrc;
+    this.caption = caption;
+  }
+}
 class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       none: "",
-      yourCity_series: {
-        path: "ycyt",
-        url: "https://tfaforms.com/4822991",
-        imageSrc: yourCityYourTrees_series_thumbnail,
-        caption: "Your City Your Trees",
-      },
+      yourCity_series: new Pages(
+        "ycyt",
+        "https://tfaforms.com/4822991",
+        yourCityYourTrees_series_thumbnail,
+        "Your City Your Trees"
+      ),
+      // yourCity_series: {
+      //   path: "ycyt",
+      //   url: "https://tfaforms.com/4822991",
+      //   imageSrc: yourCityYourTrees_series_thumbnail,
+      //   caption: "Your City Your Trees",
+      // },
       branch_series: {
         path: "branch-out",
         url: "https://tfaforms.com/4823704",
@@ -44,7 +57,7 @@ class Main extends React.Component {
         path: "tea-and-trees",
         url: "https://tfaforms.com/4823707",
         imageSrc: teaAndTrees_series_thumbnail,
-        caption: "Tea and Trees",
+        caption: "Tea & Trees",
       },
       ycytE01: {
         path: "ycytE01",
@@ -109,7 +122,7 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees"
-                panelDescription="Welcome to our newest series!"
+                panelDescription="These quick virtual classes are focused on the trees of Washington, D.C. From common species found in D.C. to steps to identify them, Your City, Your Trees will give you the tools to find and explore the trees around you, even if it’s just outside your front door."
               ></Gallery>
             </Route>
 
@@ -151,7 +164,7 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Branch Out"
-                panelDescription="Documenting Casey Trees' Historic Partnerships"
+                panelDescription="In the spirit of staying in touch with loved ones and trying new things, our video series Branch Out follows us as we catch up with a friend (which could be a partner, organization, or agency!), see how they're doing, and wax poetic about how great the environment is."
               ></Gallery>
             </Route>
 
@@ -178,8 +191,8 @@ class Main extends React.Component {
                 thumbs={[this.state.teaAndTreesE01]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                panelTitle="Tea and Trees"
-                panelDescription="Our newest series: our staff sounds off!"
+                panelTitle="Tea & Trees"
+                panelDescription="We teach all about the trees throughout the District, but what about the people behind the Casey Trees curtain? Tea & Trees is your behind the scenes look at the people of Casey Trees, what we do, and where we make it happen."
               ></Gallery>
             </Route>
 

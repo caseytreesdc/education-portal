@@ -8,7 +8,6 @@ import CTButton from "./CTButton";
 import Thumbnail from "./Thumbnail";
 
 const Gallery = (props) => {
-  console.log(props.thumbs)
   let thumbNails = props.thumbs.map((item) => {
     return (
       <div>
