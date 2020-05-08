@@ -23,10 +23,7 @@ const Footer = (props) => {
       </div>
       {[
         [
-          new Hyperlink(
-            "Water",
-            "https://caseytrees.org/take-action/water/"
-          ),
+          new Hyperlink("Water", "https://caseytrees.org/take-action/water/"),
           new Hyperlink(
             "Tree Report Card 2019",
             "https://caseytreesdc.github.io/treereportcard2019/"
@@ -35,7 +32,6 @@ const Footer = (props) => {
             "The Leaflet",
             "https://caseytrees.org/resources/blog/"
           ),
-          new Hyperlink("Home Page", "https://www.google.com"),
         ],
         [
           new Hyperlink(
@@ -49,21 +45,6 @@ const Footer = (props) => {
           new Hyperlink(
             "Inventory Map",
             "https://caseytrees.org/resources-list/d-c-tree-inventory-map/"
-          ),
-        ],
-        [
-          new Hyperlink(
-            "Another Link",
-            "https://www.facebook.com/CaseyTreesDC/"
-          ),
-          new Hyperlink("Another Link", "https://twitter.com/caseytrees"),
-          new Hyperlink(
-            "Anotehr Link",
-            "https://www.instagram.com/CaseyTrees/"
-          ),
-          new Hyperlink(
-            "Another Link",
-            "https://www.youtube.com/user/caseytrees"
           ),
         ],
       ].map((column) => {
