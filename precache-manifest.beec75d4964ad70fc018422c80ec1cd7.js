@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfd6d654b0b671ac3f1cb5f54df1495b",
+    "revision": "bc563476bcae9378d319c31eb0c536d4",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "3c2a8b87c0dfa7b8e3e4",
-    "url": "/ct-videos/static/css/main.47f7ebc9.chunk.css"
+    "revision": "594238afbfcf9e3435e4",
+    "url": "/ct-videos/static/css/main.a8112bee.chunk.css"
   },
   {
-    "revision": "c13bc6bc0281977c0377",
-    "url": "/ct-videos/static/js/2.9d6ab9a6.chunk.js"
+    "revision": "469d582a351f923718ba",
+    "url": "/ct-videos/static/js/2.8caff7a9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ct-videos/static/js/2.9d6ab9a6.chunk.js.LICENSE.txt"
+    "url": "/ct-videos/static/js/2.8caff7a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c2a8b87c0dfa7b8e3e4",
-    "url": "/ct-videos/static/js/main.c8bf3c35.chunk.js"
+    "revision": "594238afbfcf9e3435e4",
+    "url": "/ct-videos/static/js/main.692e4f89.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
