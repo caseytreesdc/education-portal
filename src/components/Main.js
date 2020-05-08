@@ -5,24 +5,27 @@ import "./Main.css";
 import Header from "./Header";
 import Hero from "./Hero";
 import Gallery from "./Gallery";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 import "./Gallery.css";
 
 //Hero Background
 import theaterBackground from "../assets/theater-background-2.jpg";
 //Home Page Series Thumbnails
-import yourCityYourTrees_series_thumbnail from "../assets/thumbnails/shake-shack_thumbnail.png";
-import branchOut_series_thumbnail from "../assets/thumbnails/dhcd_thumbnail.png";
-import teaAndTrees_series_thumbnail from "../assets/thumbnails/plant-it-forward_thumbnail.png";
+import yourCityYourTrees_series_thumbnail from "../assets/thumbnails/ycyt-e00.png";
+import branchOut_series_thumbnail from "../assets/thumbnails/branch-e00.png";
+import teaAndTrees_series_thumbnail from "../assets/thumbnails/tea-e00.png";
 //YCYT Thumbnails
-import ycyt_thumb_E01 from "../assets/thumbnails/ycyt-e01_thumbnail.png";
-import ycyt_thumb_E02 from "../assets/thumbnails/ycyt-e02_thumbnail.jpg";
+import ycyt_E01_thumbnail from "../assets/thumbnails/ycyt-e00.png";
+import ycyt_E02_thumbnail from "../assets/thumbnails/ycyt-e02.png";
+import ycyt_E03_thumbnail from "../assets/thumbnails/ycyt-e03.png";
 //Branch Out Thumbnails
-import branch_E01_thumbnail from "../assets/thumbnails/gallaudet_thumbnail.png";
+import branch_E01_thumbnail from "../assets/thumbnails/branch-e01.png";
 //Tea nad Trees Thumbnails
-import tea_E01_thumbnail from "../assets/thumbnails/protection-amendment_thumbnail.png";
+import tea_E01_thumbnail from "../assets/thumbnails/tea-e01.png";
 //More to Come Thumbnail
+import moreToCome_thumbnail from "../assets/thumbnails/moreToCome.png"
+
 class Pages {
   constructor(path, url, imageSrc, caption) {
     this.path = path;
@@ -63,14 +66,20 @@ class Main extends React.Component {
       ycytE01: {
         path: "ycytE01",
         url: "https://tfaforms.com/4822991",
-        imageSrc: ycyt_thumb_E01,
+        imageSrc: ycyt_E01_thumbnail,
         caption: "01: Series Introduction",
       },
       ycytE02: {
         path: "ycytE02",
         url: "https://tfaforms.com/4821884",
-        imageSrc: ycyt_thumb_E02,
+        imageSrc: ycyt_E02_thumbnail,
         caption: "02: Steps to Tree ID",
+      },
+      ycytE03: {
+        path: "ycytE03",
+        url: "https://tfaforms.com/4823993",
+        imageSrc: ycyt_E03_thumbnail,
+        caption: "03: Growth",
       },
       branchE01: {
         path: "branchE01",
@@ -83,6 +92,12 @@ class Main extends React.Component {
         url: "https://tfaforms.com/4823707",
         imageSrc: tea_E01_thumbnail,
         caption: "01: Dr. Jess Sanders",
+      },
+      moreToCome: {
+        path: "moreToCome",
+        url: "https://tfaforms.com/4823707",
+        imageSrc: moreToCome_thumbnail,
+        caption: "More to Come Soon!",
       },
     };
   }
@@ -119,7 +134,11 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.ycytE01, this.state.ycytE02]}
+                thumbs={[
+                  this.state.ycytE01,
+                  this.state.ycytE02,
+                  this.state.ycytE03,
+                ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees"
@@ -133,7 +152,11 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.ycytE01, this.state.ycytE02]}
+                thumbs={[
+                  this.state.ycytE01,
+                  this.state.ycytE02,
+                  this.state.ycytE03,
+                ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Series Introduction"
@@ -147,7 +170,29 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.ycytE01, this.state.ycytE02]}
+                thumbs={[
+                  this.state.ycytE01,
+                  this.state.ycytE02,
+                  this.state.ycytE03,
+                ]}
+                panelButtonLink="/"
+                panelButtonText="All Series"
+                panelTitle="Your City, Your Trees: Steps to Tree ID"
+                panelDescription="Episode 2 with Gabrielle Rovegno, Community Education Coordinator "
+              ></Gallery>
+            </Route>
+
+            <Route path={"/" + this.state.ycytE03.path}>
+              <Hero
+                formSrc={this.state.ycytE03.url}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <Gallery
+                thumbs={[
+                  this.state.ycytE01,
+                  this.state.ycytE02,
+                  this.state.ycytE03,
+                ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Steps to Tree ID"
@@ -161,7 +206,7 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.branchE01]}
+                thumbs={[this.state.branchE01, this.state.moreToCome]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Branch Out"
@@ -175,7 +220,7 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.branchE01]}
+                thumbs={[this.state.branchE01, this.state.moreToCome]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Branch Out: Trey Sherard of Anacostia Riverkeeper"
@@ -189,7 +234,7 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.teaAndTreesE01]}
+                thumbs={[this.state.teaAndTreesE01, this.state.moreToCome]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Tea & Trees"
@@ -203,11 +248,29 @@ class Main extends React.Component {
                 backgroundImage={theaterBackground}
               ></Hero>
               <Gallery
-                thumbs={[this.state.teaAndTreesE01]}
+                thumbs={[this.state.teaAndTreesE01, this.state.moreToCome]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Tea and Trees: The Inaugural Episode"
                 panelDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+              ></Gallery>
+            </Route>
+
+            <Route path={"/" + this.state.moreToCome.path}>
+              <Hero
+                formSrc={this.state.teaAndTreesE01.url}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <Gallery
+                thumbs={[
+                  this.state.yourCity_series,
+                  this.state.branch_series,
+                  this.state.tea_series,
+                ]}
+                panelButtonLink="/"
+                panelButtonText="All Series"
+                panelTitle="We'll be putting out episodes weekly!"
+                panelDescription="Until then, fill out the form to watch the newest Tea and Trees, featuring Dr. Jessica Sanders, Director od Science and Policy"
               ></Gallery>
             </Route>
           </Switch>
