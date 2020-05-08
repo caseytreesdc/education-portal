@@ -1,27 +1,3 @@
-.Header__social-links {
-  background: rgb(44, 44, 44);
-}
-
-.Header__social-links-container {
-  padding: .6vh 0 1vh 2vw;
-}
-.facebook,
-.instagram,
-.twitter,
-.youtube {
-  height: 2.5vh;
-  margin: 8px;
-  fill: rgba(219,219,219,.7)
-}
-
-.facebook:hover,
-.instagram:hover,
-.twitter:hover,
-.youtube:hover {
-  fill: rgba(219,219,219,1)
-}
-
-
 .Header__main {
   display: flex;
   flex-direction: row;

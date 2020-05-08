@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 36vh;
   background: rgba(0, 0, 0, 0);
 }
 
@@ -11,6 +10,7 @@
 }
 
 .Gallery__thumbnails {
+  padding: 15px 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
