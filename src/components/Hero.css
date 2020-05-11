@@ -10,6 +10,17 @@
   box-shadow: inset 0px 10px 7px -2px rgba(0, 0, 0, 0.15);
 }
 
+.Hero__title-container {
+  padding-top: 5vh;
+  padding-left: 5vw;
+  display: flex;
+  height: 100%;
+}
+
+.Hero__title {
+  height: 200px;
+}
+
 .Hero__virtual-logo-container {
   height: 100%;
   display: flex;

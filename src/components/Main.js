@@ -89,13 +89,13 @@ class Main extends React.Component {
       },
       teaAndTreesE01: {
         path: "teaE01",
-        url: "https://tfaforms.com/4823707",
+        url: "https://www.youtube.com/embed/cYXgn0YNrK4",
         imageSrc: tea_E01_thumbnail,
         caption: "01: Dr. Jess Sanders",
       },
       moreToCome: {
         path: "moreToCome",
-        url: "https://tfaforms.com/4823707",
+        url: "https://www.youtube.com/embed/cYXgn0YNrK4",
         imageSrc: moreToCome_thumbnail,
         caption: "More to Come Soon!",
       },
@@ -123,8 +123,8 @@ class Main extends React.Component {
                 ]}
                 panelButtonLink="/ycytE03"
                 panelButtonText="Watch Latest"
-                panelTitle="Casey Trees Remote"
-                panelDescription="Check out our newest series and classes!"
+                panelTitle=""
+                panelDescription=""
               ></Gallery>
             </Route>
 
@@ -195,8 +195,8 @@ class Main extends React.Component {
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                panelTitle="Your City, Your Trees: Steps to Tree ID"
-                panelDescription="Episode 2 with Gabrielle Rovegno, Community Education Coordinator "
+                panelTitle="Your City, Your Trees: Growth and Context"
+                panelDescription="Episode 3 with Gabrielle Rovegno, Community Education Coordinator "
               ></Gallery>
             </Route>
 
@@ -252,7 +252,7 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Tea and Trees: The Inaugural Episode"
-                panelDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+                panelDescription="Episode 1 with Dr. Jessica Sanders coming soon, watch the trailer!"
               ></Gallery>
             </Route>
 
@@ -270,7 +270,7 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="We'll be putting out episodes weekly!"
-                panelDescription="Until then, fill out the form to watch the newest Tea and Trees, featuring Dr. Jessica Sanders, Director od Science and Policy"
+                panelDescription="Until then, check out the trailer of our newest series, Tea and Trees, featuring Dr. Jessica Sanders, Director of Science and Policy"
               ></Gallery>
             </Route>
           </Switch>

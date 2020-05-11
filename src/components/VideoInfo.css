@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    height: fit-content;
+    min-height: 14vh;
 }
 
 .VideoInfo__text-box {
