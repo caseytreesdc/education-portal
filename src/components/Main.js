@@ -121,7 +121,7 @@ class Main extends React.Component {
                   this.state.branch_series,
                   this.state.tea_series,
                 ]}
-                panelButtonLink="/ycytE02"
+                panelButtonLink="/ycytE03"
                 panelButtonText="Watch Latest"
                 panelTitle="Casey Trees Remote"
                 panelDescription="Check out our newest series and classes!"
