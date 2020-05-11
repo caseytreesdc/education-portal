@@ -13,7 +13,7 @@ const Hero = (props) => {
         style={{ backgroundImage: `url(${props.backgroundImage})` }}
         className="Hero"
       >
-        <div className="Hero__title-container"><img className="Hero__title" src={CTRemoteTitle}></img></div>
+        <div className="Hero__title-container"><img className="Hero__title" alt="Casey Trees Remote" src={CTRemoteTitle}></img></div>
         <div className="Hero__virtual-logo-container">
           <img
             alt="ct-virtual classes"
