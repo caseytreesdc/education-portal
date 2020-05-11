@@ -79,7 +79,7 @@ class Main extends React.Component {
         path: "ycytE03",
         url: "https://tfaforms.com/4823993",
         imageSrc: ycyt_E03_thumbnail,
-        caption: "03: Growth",
+        caption: "03: Growth and Context",
       },
       branchE01: {
         path: "branchE01",
@@ -123,8 +123,8 @@ class Main extends React.Component {
                 ]}
                 panelButtonLink="/ycytE02"
                 panelButtonText="Watch Latest"
-                panelTitle="Casey Trees' Video Portal"
-                panelDescription="Explore some of our featured videos!"
+                panelTitle="Casey Trees Remote"
+                panelDescription="Check out our newest series and classes!"
               ></Gallery>
             </Route>
 
