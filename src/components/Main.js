@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import "./Main.css";
 
 import Header from "./Header";
@@ -109,7 +109,6 @@ class Main extends React.Component {
       <div className="Main">
         <Header></Header>
 
-        <Router basename={process.env.PUBLIC_URL + '/'}>
           <Switch>
             <Route exact path="/">
               <Hero
@@ -295,7 +294,6 @@ class Main extends React.Component {
             </Route>
           </Switch>
           <Footer></Footer>
-        </Router>
       </div>
     );
   }
