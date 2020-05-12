@@ -108,7 +108,7 @@ class Main extends React.Component {
       <div className="Main">
         <Header></Header>
 
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/">
               <Hero
