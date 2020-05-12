@@ -24,7 +24,7 @@ import branch_E01_thumbnail from "../assets/thumbnails/branch-e01.png";
 //Tea nad Trees Thumbnails
 import tea_E01_thumbnail from "../assets/thumbnails/tea-e01.png";
 //More to Come Thumbnail
-import moreToCome_thumbnail from "../assets/thumbnails/moreToCome.png"
+import moreToCome_thumbnail from "../assets/thumbnails/moreToCome.png";
 
 class Pages {
   constructor(path, url, imageSrc, caption) {
@@ -104,11 +104,12 @@ class Main extends React.Component {
   }
 
   render() {
+    
     return (
       <div className="Main">
         <Header></Header>
 
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL + '/'}>
           <Switch>
             <Route exact path="/">
               <Hero
@@ -143,7 +144,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees"
-                panelDescription={"These quick virtual classes are focused on the trees of Washington, D.C. From common species found in D.C. to steps to identify them, Your City, Your Trees will give you the tools to find and explore the trees around you, even if it’s just outside your front door." + this.state.enterInfo}
+                panelDescription={
+                  "These quick virtual classes are focused on the trees of Washington, D.C. From common species found in D.C. to steps to identify them, Your City, Your Trees will give you the tools to find and explore the trees around you, even if it’s just outside your front door." +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
@@ -161,7 +165,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Series Introduction"
-                panelDescription={"From our Education Team, welcome to our newest series, Your City, Your Trees!" + this.state.enterInfo}
+                panelDescription={
+                  "From our Education Team, welcome to our newest series, Your City, Your Trees!" +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
@@ -179,7 +186,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Steps to Tree ID"
-                panelDescription={"Episode 2 with Gabrielle Rovegno, Community Education Coordinator." + this.state.enterInfo}
+                panelDescription={
+                  "Episode 2 with Gabrielle Rovegno, Community Education Coordinator." +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
@@ -197,7 +207,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Growth and Context"
-                panelDescription={"Episode 3 with Gabrielle Rovegno, Community Education Coordinator." + this.state.enterInfo}
+                panelDescription={
+                  "Episode 3 with Gabrielle Rovegno, Community Education Coordinator." +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
@@ -211,7 +224,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Branch Out"
-                panelDescription={"In the spirit of staying in touch with loved ones and trying new things, our video series Branch Out follows us as we catch up with a friend (which could be a partner, organization, or agency!), see how they're doing, and wax poetic about how great the environment is." + this.state.enterInfo}
+                panelDescription={
+                  "In the spirit of staying in touch with loved ones and trying new things, our video series Branch Out follows us as we catch up with a friend (which could be a partner, organization, or agency!), see how they're doing, and wax poetic about how great the environment is." +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
@@ -239,7 +255,10 @@ class Main extends React.Component {
                 panelButtonLink="/"
                 panelButtonText="All Series"
                 panelTitle="Tea & Trees"
-                panelDescription={"We teach all about the trees throughout the District, but what about the people behind the Casey Trees curtain? Tea & Trees is your behind the scenes look at the people of Casey Trees, what we do, and where we make it happen." + this.state.enterInfo}
+                panelDescription={
+                  "We teach all about the trees throughout the District, but what about the people behind the Casey Trees curtain? Tea & Trees is your behind the scenes look at the people of Casey Trees, what we do, and where we make it happen." +
+                  this.state.enterInfo
+                }
               ></Gallery>
             </Route>
 
