@@ -7,7 +7,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div className="App">
         <Main></Main>
       </div>
