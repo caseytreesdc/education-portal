@@ -7,7 +7,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/ct-videos"}>
       <div className="App">
         <Main></Main>
       </div>
