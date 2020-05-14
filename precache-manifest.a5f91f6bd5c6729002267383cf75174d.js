@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8d39c5396561dc8d92b5ca0e6116a97",
+    "revision": "673fd1dd5bcca23fee76cd614eaeb5cd",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "962703898286f62e2dd1",
+    "revision": "de3d82eaee2332245672",
     "url": "/ct-videos/static/css/main.14c22b34.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ct-videos/static/js/2.635d2802.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "962703898286f62e2dd1",
-    "url": "/ct-videos/static/js/main.7e07c4ba.chunk.js"
+    "revision": "de3d82eaee2332245672",
+    "url": "/ct-videos/static/js/main.087f113c.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
@@ -41,7 +41,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8dd451f6d7729ea08726da75eea7ff4c",
-    "url": "/ct-videos/static/media/logo.8dd451f6.png"
+    "url": "/ct-videos/static/media/header-logo.8dd451f6.png"
   },
   {
     "revision": "1a647bdb54951526d65b0bcb476057a3",
