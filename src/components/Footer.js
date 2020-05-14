@@ -29,6 +29,10 @@ const Footer = (props) => {
             "https://caseytreesdc.github.io/treereportcard2019/"
           ),
           new Hyperlink(
+            "D.C. State Nursery at Casey Trees Farm",
+            "https://caseytrees.org/resources/blog/"
+          ),
+          new Hyperlink(
             "The Leaflet",
             "https://caseytrees.org/resources/blog/"
           ),
