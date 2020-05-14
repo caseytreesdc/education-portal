@@ -3,7 +3,7 @@ import "./Header.css";
 import CTButton from "./CTButton";
 
 import SocialLinks from "./SocialLinks"
-import logo from "../assets/logo.png";
+import logo from "../assets/header-logo.png";
 
 const Header = () => {
   return (
