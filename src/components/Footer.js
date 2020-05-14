@@ -30,7 +30,7 @@ const Footer = (props) => {
           ),
           new Hyperlink(
             "D.C. State Nursery at Casey Trees Farm",
-            "https://caseytrees.org/resources/blog/"
+            "https://caseytreesdc.github.io/ct-farm/"
           ),
           new Hyperlink(
             "The Leaflet",
