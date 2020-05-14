@@ -1,3 +1,6 @@
-Latest npm run deploy:
+## Deploys:
 
-5/14/2020 commit 19325d4
+# 5/14/2020
+
+- 19325d4
+- 6fa3674
