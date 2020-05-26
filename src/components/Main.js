@@ -194,9 +194,9 @@ class Main extends React.Component {
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                panelTitle="Your City, Your Trees: This is Episode Number 4"
+                panelTitle="Your City, Your Trees: Steps to Tree ID"
                 panelDescription={
-                  "Here is the description for Episode number 4!" +
+                  "Episode 2 with Gabrielle Rovegno, Community Education Coordinator." +
                   this.state.enterInfo
                 }
               ></Gallery>
@@ -218,7 +218,7 @@ class Main extends React.Component {
                 panelButtonText="All Series"
                 panelTitle="Your City, Your Trees: Growth and Context"
                 panelDescription={
-                  "Episode 3 with Gabrielle Rovegno, Community Education Coordinator." +
+                  "Episode 3 is all about how our trees grow in their varied environments. " +
                   this.state.enterInfo
                 }
               ></Gallery>
@@ -238,9 +238,9 @@ class Main extends React.Component {
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                panelTitle="Your City, Your Trees: Growth and Context"
+                panelTitle="Your City, Your Trees: Leafing Out"
                 panelDescription={
-                  "Episode 3 with Gabrielle Rovegno, Community Education Coordinator." +
+                  "The latest episode in our tree ID series covers all things leaves. From their shape, how they're arranged, and how they're attached, there's a lot to learn! Your City, Your Trees: Leafing Out will get you started." +
                   this.state.enterInfo
                 }
               ></Gallery>
