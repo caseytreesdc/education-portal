@@ -87,7 +87,7 @@ class Main extends React.Component {
         path: "ycytE04",
         url: "https://tfaforms.com/4828500",
         imageSrc: ycyt_E04_thumbnail,
-        caption: "04: New Episode",
+        caption: "04: Leafing Out",
       },
       branchE01: {
         path: "branchE01",
