@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ct-videos/static/css/main.14c22b34.chunk.css",
-    "main.js": "/ct-videos/static/js/main.3dfba094.chunk.js",
-    "main.js.map": "/ct-videos/static/js/main.3dfba094.chunk.js.map",
+    "main.js": "/ct-videos/static/js/main.6090c22a.chunk.js",
+    "main.js.map": "/ct-videos/static/js/main.6090c22a.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
     "runtime-main.js.map": "/ct-videos/static/js/runtime-main.8312ec3d.js.map",
-    "static/js/2.de624cc5.chunk.js": "/ct-videos/static/js/2.de624cc5.chunk.js",
-    "static/js/2.de624cc5.chunk.js.map": "/ct-videos/static/js/2.de624cc5.chunk.js.map",
+    "static/js/2.1bcb80c8.chunk.js": "/ct-videos/static/js/2.1bcb80c8.chunk.js",
+    "static/js/2.1bcb80c8.chunk.js.map": "/ct-videos/static/js/2.1bcb80c8.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.e71e49c8b1ff3b4e88fe21de35bed552.js": "/ct-videos/precache-manifest.e71e49c8b1ff3b4e88fe21de35bed552.js",
+    "precache-manifest.bddd6024fcfd66fba28b877d8c256c02.js": "/ct-videos/precache-manifest.bddd6024fcfd66fba28b877d8c256c02.js",
     "service-worker.js": "/ct-videos/service-worker.js",
     "static/css/main.14c22b34.chunk.css.map": "/ct-videos/static/css/main.14c22b34.chunk.css.map",
-    "static/js/2.de624cc5.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.de624cc5.chunk.js.LICENSE.txt",
+    "static/js/2.1bcb80c8.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.1bcb80c8.chunk.js.LICENSE.txt",
     "static/media/branch-e00.png": "/ct-videos/static/media/branch-e00.8c05525e.png",
     "static/media/branch-e01.png": "/ct-videos/static/media/branch-e01.46c3d072.png",
     "static/media/ct-remote-title.png": "/ct-videos/static/media/ct-remote-title.108b8091.png",
@@ -24,12 +24,13 @@
     "static/media/virtual-ct-logo.png": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png",
     "static/media/ycyt-e00.png": "/ct-videos/static/media/ycyt-e00.28fd79ab.png",
     "static/media/ycyt-e02.png": "/ct-videos/static/media/ycyt-e02.1480c4e6.png",
-    "static/media/ycyt-e03.png": "/ct-videos/static/media/ycyt-e03.1e0afd30.png"
+    "static/media/ycyt-e03.png": "/ct-videos/static/media/ycyt-e03.1e0afd30.png",
+    "static/media/ycyt-e04.png": "/ct-videos/static/media/ycyt-e04.3a6e8edf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
-    "static/js/2.de624cc5.chunk.js",
+    "static/js/2.1bcb80c8.chunk.js",
     "static/css/main.14c22b34.chunk.css",
-    "static/js/main.3dfba094.chunk.js"
+    "static/js/main.6090c22a.chunk.js"
   ]
 }
