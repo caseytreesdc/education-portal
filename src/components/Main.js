@@ -19,6 +19,7 @@ import teaAndTrees_series_thumbnail from "../assets/thumbnails/tea-e00.png";
 import ycyt_E01_thumbnail from "../assets/thumbnails/ycyt-e00.png";
 import ycyt_E02_thumbnail from "../assets/thumbnails/ycyt-e02.png";
 import ycyt_E03_thumbnail from "../assets/thumbnails/ycyt-e03.png";
+import ycyt_E04_thumbnail from "../assets/thumbnails/ycyt-e00.png";
 //Branch Out Thumbnails
 import branch_E01_thumbnail from "../assets/thumbnails/branch-e01.png";
 //Tea nad Trees Thumbnails
@@ -82,6 +83,12 @@ class Main extends React.Component {
         imageSrc: ycyt_E03_thumbnail,
         caption: "03: Growth and Context",
       },
+      ycytE04: {
+        path: "ycytE04",
+        url: "https://tfaforms.com/4828500",
+        imageSrc: ycyt_E04_thumbnail,
+        caption: "04: New Episode",
+      },
       branchE01: {
         path: "branchE01",
         url: "https://tfaforms.com/4823704",
@@ -139,6 +146,7 @@ class Main extends React.Component {
                   this.state.ycytE01,
                   this.state.ycytE02,
                   this.state.ycytE03,
+                  this.state.ycytE04
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
@@ -160,6 +168,7 @@ class Main extends React.Component {
                   this.state.ycytE01,
                   this.state.ycytE02,
                   this.state.ycytE03,
+                  this.state.ycytE04
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
@@ -181,12 +190,13 @@ class Main extends React.Component {
                   this.state.ycytE01,
                   this.state.ycytE02,
                   this.state.ycytE03,
+                  this.state.ycytE04
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
-                panelTitle="Your City, Your Trees: Steps to Tree ID"
+                panelTitle="Your City, Your Trees: This is Episode Number 4"
                 panelDescription={
-                  "Episode 2 with Gabrielle Rovegno, Community Education Coordinator." +
+                  "Here is the description for Episode number 4!" +
                   this.state.enterInfo
                 }
               ></Gallery>
@@ -202,6 +212,29 @@ class Main extends React.Component {
                   this.state.ycytE01,
                   this.state.ycytE02,
                   this.state.ycytE03,
+                  this.state.ycytE04
+                ]}
+                panelButtonLink="/"
+                panelButtonText="All Series"
+                panelTitle="Your City, Your Trees: Growth and Context"
+                panelDescription={
+                  "Episode 3 with Gabrielle Rovegno, Community Education Coordinator." +
+                  this.state.enterInfo
+                }
+              ></Gallery>
+            </Route>
+
+            <Route path={"/" + this.state.ycytE04.path}>
+              <Hero
+                formSrc={this.state.ycytE04.url}
+                backgroundImage={theaterBackground}
+              ></Hero>
+              <Gallery
+                thumbs={[
+                  this.state.ycytE01,
+                  this.state.ycytE02,
+                  this.state.ycytE03,
+                  this.state.ycytE04
                 ]}
                 panelButtonLink="/"
                 panelButtonText="All Series"
