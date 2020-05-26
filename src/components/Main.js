@@ -19,7 +19,7 @@ import teaAndTrees_series_thumbnail from "../assets/thumbnails/tea-e00.png";
 import ycyt_E01_thumbnail from "../assets/thumbnails/ycyt-e00.png";
 import ycyt_E02_thumbnail from "../assets/thumbnails/ycyt-e02.png";
 import ycyt_E03_thumbnail from "../assets/thumbnails/ycyt-e03.png";
-import ycyt_E04_thumbnail from "../assets/thumbnails/ycyt-e00.png";
+import ycyt_E04_thumbnail from "../assets/thumbnails/ycyt-e04.png";
 //Branch Out Thumbnails
 import branch_E01_thumbnail from "../assets/thumbnails/branch-e01.png";
 //Tea nad Trees Thumbnails
