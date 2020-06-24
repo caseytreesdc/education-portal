@@ -16,3 +16,9 @@
   flex-direction: row;
   margin: 0 1vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .Header__buttons {
+    display: none;
+  }
+}

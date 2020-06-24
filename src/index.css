@@ -1,3 +1,6 @@
+#root {
+  width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -12,7 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 97.5vw;
+  /* width: 100%; */
 }
 
 a {
@@ -20,7 +23,7 @@ a {
   cursor: pointer;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */

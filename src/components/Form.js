@@ -27,11 +27,10 @@ class Form extends React.Component {
           className="iframe__responsive"
           title="Form or Video?"
           src={this.props.formSrc}
-          height="184.275"
-          width="327.6"
           frameborder="0"
-          scrolling="no"
+          scrolling="yes"
           allowFullScreen
+          style={{width:"100%", height:"100%"}}
         ></iframe>
         <script src="//tfaforms.com/js/iframe_resize_helper.js"></script>
       </div>

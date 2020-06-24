@@ -39,7 +39,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      enterInfo: " Enter your name and email to watch!",
+      enterInfo: " Fill out the form above to watch!",
       none: "",
       yourCity_series: new Pages(
         "ycyt",

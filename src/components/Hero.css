@@ -36,3 +36,15 @@
   width: 20vw;
   margin: 2vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .Hero {
+    height: 80vh;
+  }
+  .Hero__title {
+    height: 30%;
+  }
+  .Hero__virtual-logo-container {
+    display: none;
+  }
+}
