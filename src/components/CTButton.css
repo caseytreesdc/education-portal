@@ -43,3 +43,7 @@
 .blue:hover {
     background: rgb(65, 182, 218);
 }
+
+.newblue {
+    background: rgb(65, 104, 172);
+}

@@ -1,5 +1,5 @@
 .SocialLinks {
-  background: rgb(44, 44, 44);
+  background: rgba(0, 0, 0, 0);
   padding: 1vh 3vw;
 }
 
@@ -12,7 +12,7 @@
 .SocialLinks__logo {
   height: 2.5vh;
   margin: 8px;
-  fill: rgba(219, 219, 219, 0.7);
+  fill: rgba(40, 16, 15, 1)
 }
 
 .large {
@@ -20,5 +20,5 @@
 }
 
 .SocialLinks__logo:hover {
-  fill: rgb(245, 242, 242);
+  fill: rgba(40, 16, 15, .5);
 }

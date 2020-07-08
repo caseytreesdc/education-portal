@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
 
-import footerCtLogo from "../assets/footer-logo.png";
+import footerCtLogo from "../assets/wblack-ct-logo.png";
 import CTButton from "./CTButton";
 import SocialLinks from "./SocialLinks";
 
 const Footer = (props) => {
   class Hyperlink {
     constructor(text, link) {
-      this.text = text;
+      this.text = text.toUpperCase();
       this.link = link;
     }
   }
@@ -70,7 +70,7 @@ const Footer = (props) => {
       <div className="Footer__column">
         <CTButton
           url="https://caseytrees.org/waystogive/evergreen-membership-donation-form/"
-          orange
+          newblue
           wide
           text="DONATE"
         ></CTButton>

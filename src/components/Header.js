@@ -1,14 +1,15 @@
 import React from "react";
 import "./Header.css";
-import CTButton from "./CTButton";
 
-import SocialLinks from "./SocialLinks"
-import logo from "../assets/header-logo.png";
+import Nav from "./Nav";
+import Breadcrumbs from "./Breadcrumbs"
+import "./Breadcrumbs.css";
+
+import logo from "../assets/header-logo.svg";
 
 const Header = () => {
   return (
     <div className="Header">
-      <SocialLinks></SocialLinks>
       <div className="Header__main">
         <a
           className="Header__logo-container"
@@ -21,21 +22,18 @@ const Header = () => {
             className="Header__logo"
           ></img>
         </a>
-        <div className="Header__buttons">
-          <CTButton
-            samePage
-            blue
-            url="https://caseytreesdc.github.io/ct-videos/#thumbnails"
-            text="WATCH"
-          ></CTButton>
-          <CTButton orange url="https://caseytrees.org/" text="HOME"></CTButton>
-          <CTButton
-            green
-            url="https://caseytrees.org/waystogive/evergreen-membership-donation-form/"
-            text="DONATE"
-          ></CTButton>
-        </div>
+        <Nav
+          navType="external"
+          navLinks={[
+            { text: "ABOUT", path: "https://caseytrees.org/about-us/" },
+            { text: "GET INVOLVED", path: "https://caseytrees.org/take-action/water/" },
+            { text: "LEARN", path: "https://caseytreesdc.github.io/ct-videos/" },
+            { text: "PLANT", path: "https://caseytrees.org/plant/" },
+            { text: "GIVE", path: "https://caseytrees.org/waystogive/evergreen-membership-donation-form/" },
+          ]}
+        ></Nav>
       </div>
+      <Breadcrumbs text="learn > casey trees remote"></Breadcrumbs>
     </div>
   );
 };

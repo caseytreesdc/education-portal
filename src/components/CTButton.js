@@ -11,6 +11,8 @@ const CTButton = (props) => {
     className += " green";
   } else if (props.blue) {
     className += " blue";
+  } else if (props.newblue) {
+    className += " newblue";
   }
   let textClass = "CTButton__text"
   if (props.wide) {
