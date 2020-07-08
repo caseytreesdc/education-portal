@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08b2f2d4c3d01de0e5f83332a713cdc8",
+    "revision": "43206ba7422debfd8cb4c3e539f044a4",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "0a50fb93e8078edd15ac",
-    "url": "/ct-videos/static/css/main.5ebb58f8.chunk.css"
+    "revision": "7c500662ecff35766ee7",
+    "url": "/ct-videos/static/css/main.0557e26f.chunk.css"
   },
   {
-    "revision": "aaa45f7599a7ed6560c2",
-    "url": "/ct-videos/static/js/2.1bcb80c8.chunk.js"
+    "revision": "25b7c277f7dfad0b7edf",
+    "url": "/ct-videos/static/js/2.a99ba798.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ct-videos/static/js/2.1bcb80c8.chunk.js.LICENSE.txt"
+    "url": "/ct-videos/static/js/2.a99ba798.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a50fb93e8078edd15ac",
-    "url": "/ct-videos/static/js/main.7693ce9b.chunk.js"
+    "revision": "7c500662ecff35766ee7",
+    "url": "/ct-videos/static/js/main.acc6f6b9.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
@@ -36,12 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ct-videos/static/media/ct-remote-title.108b8091.png"
   },
   {
-    "revision": "285e02f30c2900ce5164f8a9f25c4ed4",
-    "url": "/ct-videos/static/media/footer-logo.285e02f3.png"
-  },
-  {
-    "revision": "8dd451f6d7729ea08726da75eea7ff4c",
-    "url": "/ct-videos/static/media/header-logo.8dd451f6.png"
+    "revision": "de60ecdfbdd47d446fa5f4664dcd9160",
+    "url": "/ct-videos/static/media/header-logo.de60ecdf.svg"
   },
   {
     "revision": "1a647bdb54951526d65b0bcb476057a3",
@@ -62,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac375bbdc2e2c7ec3b14c396ff2a1fa7",
     "url": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png"
+  },
+  {
+    "revision": "7b54da3ba302762ab60f4080f3d219e4",
+    "url": "/ct-videos/static/media/wblack-ct-logo.7b54da3b.png"
   },
   {
     "revision": "28fd79ab25aba357ee7dfeb7de0e97e0",
