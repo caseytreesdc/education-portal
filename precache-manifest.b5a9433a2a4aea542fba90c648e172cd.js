@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "835b0a25de9bacbef7d8e4f7b406d11c",
+    "revision": "ea1fa1a784b0adf38297441678a77609",
     "url": "/ct-videos/index.html"
   },
   {
-    "revision": "77847274c436e6d7e739",
+    "revision": "a024c398eaee9a7d7c8d",
     "url": "/ct-videos/static/css/main.4fa61f81.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ct-videos/static/js/2.586b7bb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77847274c436e6d7e739",
-    "url": "/ct-videos/static/js/main.a290709a.chunk.js"
+    "revision": "a024c398eaee9a7d7c8d",
+    "url": "/ct-videos/static/js/main.0690d3e7.chunk.js"
   },
   {
     "revision": "f1ecb7fed90cd68cbd24",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ct-videos/static/media/virtual-ct-logo.ac375bbd.png"
   },
   {
-    "revision": "7b54da3ba302762ab60f4080f3d219e4",
-    "url": "/ct-videos/static/media/wblack-ct-logo.7b54da3b.png"
+    "revision": "cf30c57f6ba5a13823c756b41b6f0a8b",
+    "url": "/ct-videos/static/media/wblack-ct-logo.cf30c57f.svg"
   },
   {
     "revision": "28fd79ab25aba357ee7dfeb7de0e97e0",
