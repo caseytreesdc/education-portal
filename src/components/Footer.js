@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-import footerCtLogo from "../assets/wblack-ct-logo.png";
+import footerCtLogo from "../assets/wblack-ct-logo.svg";
 import backgroundImage from "../assets/graph-background.png"
 import CTButton from "./CTButton";
 import SocialLinks from "./SocialLinks";
