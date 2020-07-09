@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 
 import footerCtLogo from "../assets/wblack-ct-logo.png";
+import backgroundImage from "../assets/graph-background.png"
 import CTButton from "./CTButton";
 import SocialLinks from "./SocialLinks";
 
@@ -13,7 +14,7 @@ const Footer = (props) => {
     }
   }
   return (
-    <div className="Footer">
+    <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover'}} className="Footer">
       <div className="Footer__column">
         <img
           className="Footer__logo"

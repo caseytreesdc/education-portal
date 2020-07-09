@@ -1,5 +1,4 @@
 .Footer {
-  background: rgb(224, 239, 244);
   padding: 40px 30px;
   text-decoration: none;
   display: flex;
@@ -14,7 +13,7 @@
 }
 
 .Footer__column {
-  margin: 20px 15px;  
+  margin: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -22,12 +21,20 @@
 
 .Footer__anchor {
   text-decoration: none;
+  transform: skew(-20deg);
 }
 
 .Footer__anchor-text {
-  color:  rgba(40, 16, 15, 1);
+  color: rgba(40, 16, 15, 1);
   font-family: zeitung-mono, cronos-pro, lato, sans-serif;
-  margin:  0;
+  margin: 0;
+  padding: 0 2vw;
+  transform: skew(20deg);
+}
+
+.Footer__anchor:hover {
+  text-decoration: none;
+  background: rgb(65, 104, 172);
 }
 
 .Footer__anchor-text:hover {
