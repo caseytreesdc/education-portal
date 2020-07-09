@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ct-videos/static/css/main.0557e26f.chunk.css",
-    "main.js": "/ct-videos/static/js/main.acc6f6b9.chunk.js",
-    "main.js.map": "/ct-videos/static/js/main.acc6f6b9.chunk.js.map",
+    "main.css": "/ct-videos/static/css/main.4fa61f81.chunk.css",
+    "main.js": "/ct-videos/static/js/main.a290709a.chunk.js",
+    "main.js.map": "/ct-videos/static/js/main.a290709a.chunk.js.map",
     "runtime-main.js": "/ct-videos/static/js/runtime-main.8312ec3d.js",
     "runtime-main.js.map": "/ct-videos/static/js/runtime-main.8312ec3d.js.map",
-    "static/js/2.a99ba798.chunk.js": "/ct-videos/static/js/2.a99ba798.chunk.js",
-    "static/js/2.a99ba798.chunk.js.map": "/ct-videos/static/js/2.a99ba798.chunk.js.map",
+    "static/js/2.586b7bb5.chunk.js": "/ct-videos/static/js/2.586b7bb5.chunk.js",
+    "static/js/2.586b7bb5.chunk.js.map": "/ct-videos/static/js/2.586b7bb5.chunk.js.map",
     "index.html": "/ct-videos/index.html",
-    "precache-manifest.f93abdf833148987144205fe1bb9a525.js": "/ct-videos/precache-manifest.f93abdf833148987144205fe1bb9a525.js",
+    "precache-manifest.067b3c8907604dee97acd97fb149d619.js": "/ct-videos/precache-manifest.067b3c8907604dee97acd97fb149d619.js",
     "service-worker.js": "/ct-videos/service-worker.js",
-    "static/css/main.0557e26f.chunk.css.map": "/ct-videos/static/css/main.0557e26f.chunk.css.map",
-    "static/js/2.a99ba798.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.a99ba798.chunk.js.LICENSE.txt",
+    "static/css/main.4fa61f81.chunk.css.map": "/ct-videos/static/css/main.4fa61f81.chunk.css.map",
+    "static/js/2.586b7bb5.chunk.js.LICENSE.txt": "/ct-videos/static/js/2.586b7bb5.chunk.js.LICENSE.txt",
     "static/media/branch-e00.png": "/ct-videos/static/media/branch-e00.8c05525e.png",
     "static/media/branch-e01.png": "/ct-videos/static/media/branch-e01.46c3d072.png",
     "static/media/ct-remote-title.png": "/ct-videos/static/media/ct-remote-title.108b8091.png",
+    "static/media/graph-background.png": "/ct-videos/static/media/graph-background.05c21da8.png",
     "static/media/header-logo.svg": "/ct-videos/static/media/header-logo.de60ecdf.svg",
     "static/media/moreToCome.png": "/ct-videos/static/media/moreToCome.1a647bdb.png",
     "static/media/tea-e00.png": "/ct-videos/static/media/tea-e00.476edeab.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8312ec3d.js",
-    "static/js/2.a99ba798.chunk.js",
-    "static/css/main.0557e26f.chunk.css",
-    "static/js/main.acc6f6b9.chunk.js"
+    "static/js/2.586b7bb5.chunk.js",
+    "static/css/main.4fa61f81.chunk.css",
+    "static/js/main.a290709a.chunk.js"
   ]
 }
