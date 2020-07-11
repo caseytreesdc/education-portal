@@ -1,10 +1,6 @@
-.Form__iframe-Container {
-  height: 100%;
-  margin: 0 3vw;
-  display: flex;
-  align-items: center;
+.iframe__browser {
+  margin: 6vh 0;
 }
-
 .iframe__responsive {
   display: none;
 }

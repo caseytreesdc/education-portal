@@ -10,7 +10,7 @@ import Footer from "./Footer";
 import "./Gallery.css";
 
 //Hero Background
-import theaterBackground from "../assets/theater-background-2.jpg";
+import theaterBackground from "../assets/theater-background-3.jpg";
 //Home Page Series Thumbnails
 import yourCityYourTrees_series_thumbnail from "../assets/thumbnails/ycyt-e00.png";
 import branchOut_series_thumbnail from "../assets/thumbnails/branch-e00.png";
