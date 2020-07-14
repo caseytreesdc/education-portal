@@ -1,15 +1,11 @@
-.Footer {
-  padding: 40px 30px;
+.Footer__row {
+  padding: 30px 30px;
   text-decoration: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .Footer__logo {
-  width: 150px;
+  width: 80px;
 }
 
 .Footer__column {
@@ -32,6 +28,15 @@
   transform: skew(20deg);
 }
 
+.Footer__row-2 {
+  background: #e5e6e5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer__logos {
+  display: flex;
+}
 .Footer__anchor:hover {
   text-decoration: none;
   background: rgb(65, 104, 172);

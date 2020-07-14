@@ -3,8 +3,8 @@ import Form from "./Form";
 
 import "./Hero.css";
 
-import virtualCtLogo from "../assets/virtual-ct-logo.png";
-import CTRemoteTitle from "../assets/ct-remote-title.png";
+import virtualCtLogo from "../assets/wblack-virtual-ct-logo.png";
+// import CTRemoteTitle from "../assets/ct-remote-title.png";
 
 const Hero = (props) => {
   if (props.splash) {
@@ -13,20 +13,12 @@ const Hero = (props) => {
         style={{ backgroundImage: `url(${props.backgroundImage})` }}
         className="Hero"
       >
-        {/* <div className="Hero__title-container">
-          <img
-            className="Hero__title"
-            alt="Casey Trees Remote"
-            src={CTRemoteTitle}
-          ></img>
-        </div>
-        <div className="Hero__virtual-logo-container">
-          <img
-            alt="ct-virtual classes"
-            className="Hero__virtual-logo-splash"
-            src={virtualCtLogo}
-          ></img>
-        </div> */}
+        <h1 className="Hero__title">Casey Trees Remote</h1>
+        <img
+          alt="ct-virtual classes"
+          className="Hero__virtual-logo-splash"
+          src={virtualCtLogo}
+        ></img>
       </div>
     );
   }

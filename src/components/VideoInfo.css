@@ -1,16 +1,15 @@
 .VideoInfo {
-  background: rgba(0 ,0 ,0, 0 );
+  /* background: rgba(0 ,0 ,0, .5); */
   display: flex;
-  align-items: center;
   flex-direction: row;
-  justify-content: space-around;
-  min-height: 14vh;
+  margin: 0 0 0 20px;
+  justify-content: space-between;
 }
 
 .VideoInfo__text-box {
-  width: 50vw;
+  font-family: zeitung-mono, cronos-pro, "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  width: 80vw;
   margin: auto 0;
   color: rgb(40, 16, 15);
-  font-weight: bold;
-  font-size: large;
 }

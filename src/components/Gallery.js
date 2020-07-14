@@ -14,7 +14,7 @@ const Gallery = (props) => {
         <Link to={"/" + item.path}>
           <Thumbnail imgSrc={item.imageSrc}></Thumbnail>
         </Link>
-        <h3>{item.caption}</h3>
+        <h3 className="Gallery__caption">{item.caption.toUpperCase()}</h3>
       </div>
     );
   });
@@ -27,7 +27,7 @@ const Gallery = (props) => {
             <p className="VideoInfo__description">{props.panelDescription}</p>
           </div>
           <Link to={props.panelButtonLink}>
-            <CTButton blue text={props.panelButtonText}></CTButton>
+            <CTButton warmblack text={props.panelButtonText}></CTButton>
           </Link>
         </div>
       </a>

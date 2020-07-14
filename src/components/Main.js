@@ -128,9 +128,10 @@ class Main extends React.Component {
                   this.state.yourCity_series,
                   this.state.branch_series,
                   this.state.tea_series,
+                  this.state.moreToCome
                 ]}
                 panelButtonLink="/ycytE03"
-                panelButtonText="Watch Latest"
+                panelButtonText="WATCH LATEST"
                 panelTitle=""
                 panelDescription=""
               ></Gallery>
@@ -146,10 +147,10 @@ class Main extends React.Component {
                   this.state.ycytE01,
                   this.state.ycytE02,
                   this.state.ycytE03,
-                  this.state.ycytE04
+                  this.state.ycytE04,
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Your City, Your Trees"
                 panelDescription={
                   "These quick virtual classes are focused on the trees of Washington, D.C. From common species found in D.C. to steps to identify them, Your City, Your Trees will give you the tools to find and explore the trees around you, even if it’s just outside your front door." +
@@ -171,7 +172,7 @@ class Main extends React.Component {
                   this.state.ycytE04
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Your City, Your Trees: Series Introduction"
                 panelDescription={
                   "From our Education Team, welcome to our newest series, Your City, Your Trees!" +
@@ -193,7 +194,7 @@ class Main extends React.Component {
                   this.state.ycytE04
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Your City, Your Trees: Steps to Tree ID"
                 panelDescription={
                   "Episode 2 with Gabrielle Rovegno, Community Education Coordinator." +
@@ -215,7 +216,7 @@ class Main extends React.Component {
                   this.state.ycytE04
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Your City, Your Trees: Growth and Context"
                 panelDescription={
                   "Episode 3 is all about how our trees grow in their varied environments. " +
@@ -237,7 +238,7 @@ class Main extends React.Component {
                   this.state.ycytE04
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Your City, Your Trees: Leafing Out"
                 panelDescription={
                   "The latest episode in our tree ID series covers all things leaves. From their shape, how they're arranged, and how they're attached, there's a lot to learn! Your City, Your Trees: Leafing Out will get you started." +
@@ -254,7 +255,7 @@ class Main extends React.Component {
               <Gallery
                 thumbs={[this.state.branchE01, this.state.moreToCome]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Branch Out"
                 panelDescription={
                   "In the spirit of staying in touch with loved ones and trying new things, our video series Branch Out follows us as we catch up with a friend (which could be a partner, organization, or agency!), see how they're doing, and wax poetic about how great the environment is." +
@@ -271,7 +272,7 @@ class Main extends React.Component {
               <Gallery
                 thumbs={[this.state.branchE01, this.state.moreToCome]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Branch Out: Trey Sherard of Anacostia Riverkeeper"
                 panelDescription={this.state.enterInfo}
               ></Gallery>
@@ -285,7 +286,7 @@ class Main extends React.Component {
               <Gallery
                 thumbs={[this.state.teaAndTreesE01, this.state.moreToCome]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Tea & Trees"
                 panelDescription={
                   "We teach all about the trees throughout the District, but what about the people behind the Casey Trees curtain? Tea & Trees is your behind the scenes look at the people of Casey Trees, what we do, and where we make it happen." +
@@ -302,7 +303,7 @@ class Main extends React.Component {
               <Gallery
                 thumbs={[this.state.teaAndTreesE01, this.state.moreToCome]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="Tea and Trees: The Inaugural Episode"
                 panelDescription="Episode 1 with Dr. Jessica Sanders coming soon, watch the trailer!"
               ></Gallery>
@@ -320,7 +321,7 @@ class Main extends React.Component {
                   this.state.tea_series,
                 ]}
                 panelButtonLink="/"
-                panelButtonText="All Series"
+                panelButtonText="ALL SERIES"
                 panelTitle="We'll be putting out episodes weekly!"
                 panelDescription="Until then, check out the trailer of our newest series, Tea and Trees, featuring Dr. Jessica Sanders, Director of Science and Policy"
               ></Gallery>
