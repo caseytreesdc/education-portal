@@ -28,11 +28,12 @@ import tea_E01_thumbnail from "../assets/thumbnails/tea-e01.png";
 import moreToCome_thumbnail from "../assets/thumbnails/moreToCome.png";
 
 class Pages {
-  constructor(path, url, imageSrc, caption) {
+  constructor(path, url, imageSrc, caption, altText) {
     this.path = path;
     this.url = url;
     this.imageSrc = imageSrc;
     this.caption = caption;
+    this.altText = altText;
   }
 }
 class Main extends React.Component {
@@ -45,8 +46,10 @@ class Main extends React.Component {
         "ycyt",
         "https://tfaforms.com/4822991",
         yourCityYourTrees_series_thumbnail,
-        "Your City Your Trees"
+        "Your City Your Trees",
+        "Your City Your Trees Series"
       ),
+      // this somment is the equivalent class object from above
       // yourCity_series: {
       //   path: "ycyt",
       //   url: "https://tfaforms.com/4822991",
@@ -58,54 +61,63 @@ class Main extends React.Component {
         url: "https://tfaforms.com/4823704",
         imageSrc: branchOut_series_thumbnail,
         caption: "Branch Out",
+        altText: "Branch Out Series"
       },
       tea_series: {
         path: "tea-and-trees",
         url: "https://tfaforms.com/4823707",
         imageSrc: teaAndTrees_series_thumbnail,
-        caption: "Tea & Trees",
+        caption: "Tea + Trees",
+        altText: "Tea & Trees Series"
       },
       ycytE01: {
         path: "ycytE01",
         url: "https://tfaforms.com/4822991",
         imageSrc: ycyt_E01_thumbnail,
         caption: "01: Series Introduction",
+        altText: "Episode 1",
       },
       ycytE02: {
         path: "ycytE02",
         url: "https://tfaforms.com/4821884",
         imageSrc: ycyt_E02_thumbnail,
         caption: "02: Steps to Tree ID",
+        altText: "Episode 2",
       },
       ycytE03: {
         path: "ycytE03",
         url: "https://tfaforms.com/4823993",
         imageSrc: ycyt_E03_thumbnail,
         caption: "03: Growth and Context",
+        altText: "Episode 3",
       },
       ycytE04: {
         path: "ycytE04",
         url: "https://tfaforms.com/4828500",
         imageSrc: ycyt_E04_thumbnail,
         caption: "04: Leafing Out",
+        altText: "Episode 4",
       },
       branchE01: {
         path: "branchE01",
         url: "https://tfaforms.com/4823704",
         imageSrc: branch_E01_thumbnail,
         caption: "01: Anacostia Riverkeeper",
+        altText: "Episode 1",
       },
       teaAndTreesE01: {
         path: "teaE01",
         url: "https://www.youtube.com/embed/cYXgn0YNrK4",
         imageSrc: tea_E01_thumbnail,
         caption: "01: Dr. Jess Sanders",
+        altText: "Episode 1",
       },
       moreToCome: {
         path: "moreToCome",
         url: "https://www.youtube.com/embed/cYXgn0YNrK4",
         imageSrc: moreToCome_thumbnail,
         caption: "More to Come Soon!",
+        altText: "More to come, check out this trailer",
       },
     };
   }

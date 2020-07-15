@@ -12,7 +12,7 @@ const Gallery = (props) => {
     return (
       <div>
         <Link to={"/" + item.path}>
-          <Thumbnail imgSrc={item.imageSrc}></Thumbnail>
+          <Thumbnail altText={item.altText} imgSrc={item.imageSrc}></Thumbnail>
         </Link>
         <h3 className="Gallery__caption">{item.caption.toUpperCase()}</h3>
       </div>
